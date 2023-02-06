@@ -1,0 +1,91 @@
+.keyInfo{
+    margin:auto;
+    padding: 3%;
+    width: 30%;
+    font-size: larger;
+    font-weight: 600;
+}
+.programButton{
+    text-align: center;
+    padding: 3%;
+}
+
+.blogButton{
+    text-align: center;
+    padding: 3%;
+}
+.twitter{
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    width:20%;
+}
+
+.currentEvents{
+    text-align: center;
+    padding: 3%;
+}
+
+.englishPage{
+    padding: 20%;
+    text-align: right;
+}
+
+.navBar{
+    display: inline;
+    width: 10%;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-left: 20%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #4bff57;
+  border-radius: 8px;
+  color:black;
+  font-weight: 800;
+
+}
+li a:hover{
+    background-color: #3ec747;
+}
+
+.logo{
+    text-align: center;
+    scale: 50%;
+}
+
+
+#mainButton{
+    margin: auto;
+    display: block;
+    padding: 2%;
+    background-color: #4bff57;
+    border-color: #b6ffbb;
+    border-radius: 8px;
+    color:black;
+    font-weight: 600;
+}
+
+#mainButton:hover{
+    background-color: #3ec747;
+}
+
+.currentEvents{
+    font-weight: 600;
+}
+
+
+ 
