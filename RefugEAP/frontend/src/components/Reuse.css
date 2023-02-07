@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+    margin-top: 8%; /* Add a top margin to avoid content overlay */
+    width: 60%;
+    padding: 10px;
+    justify-content: center;
+    margin-left: 15%;
+  }
+
+  .header {
+    font-size: 2rem ;
+  }
+
+  .p {
+    border: 0.2px ;
+    margin: auto;
+  }
+
+  .h4 {
+    margin:auto;
+
+  }
+  .context1{
+    margin: auto;
+  }
