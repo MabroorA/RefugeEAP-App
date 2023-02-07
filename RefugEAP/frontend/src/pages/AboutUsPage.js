@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './css/AboutUsPage.css';
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
   );
 };
 
-function App() {
+function AboutUsPage() {
   return (
     <div style={{ backgroundColor: 'beige' }}>
       <Header />
@@ -40,4 +40,4 @@ function App() {
   );
 }
 
-export default App;
+export default AboutUsPage;

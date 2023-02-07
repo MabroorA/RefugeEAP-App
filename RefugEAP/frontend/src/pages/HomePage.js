@@ -1,8 +1,8 @@
-import './home.css';
+import './css/home.css';
 import React from 'react';
 import logo from './logo.jpg'
 
-function App() {
+function HomePage() {
   return (
     <div class="page">
       <div class="logo">
@@ -37,4 +37,4 @@ function App() {
 }
 
 
-export default App;
+export default HomePage;
