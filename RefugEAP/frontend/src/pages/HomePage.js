@@ -1,12 +1,12 @@
-import './css/home.css';
+import './css/Home.css';
 import React from 'react';
-import logo from './logo.jpg'
+// import logo from './logo.jpg'
 
 function HomePage() {
   return (
     <div class="page">
       <div class="logo">
-        <img src={logo} alt="logo"></img>
+        {/* <img src={logo} alt="logo"></img> */}
       </div>
       <div class="navBar">
         <ul>

@@ -5,7 +5,6 @@ from pages.models import Event
 
 
 # Create your views here.
-
 class HomePageView(TemplateView):
     template_name = 'home.html'
 
