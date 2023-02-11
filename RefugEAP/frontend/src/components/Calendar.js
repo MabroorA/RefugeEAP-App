@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import {render} from "react-dom";
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 
-const ReactCalender = () => {
+const Calender = () => {
   const [date,setDate] = useState(new Date());
 
   const onChange = date => {
@@ -18,5 +17,4 @@ const ReactCalender = () => {
 
 };
 
-render(<ReactCalender />,document.querySelector("#root"));
-
+export default Calender;

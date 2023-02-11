@@ -7,7 +7,7 @@ class Navbar extends Component {
     render(){
         return(
             <nav className='NavbarItems'>
-                <h1 className='logo'> React <img className='Clogo' src ="/src/images/logo.png" alt=""/>
+                <h1 className='logo'> React <img className='Clogo' src ="" alt=""/>
                 </h1>
                 <ul className='bar'>
                     {MenuItems.map((item,index)=>{
