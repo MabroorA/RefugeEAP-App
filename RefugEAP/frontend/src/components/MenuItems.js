@@ -7,7 +7,7 @@ export const MenuItems = [
   },
   {
     title: "Reuse",
-    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    url: "/Reuse",
     cName: "nav-links",
     icon: "fa-solid fa-circle-info",
   },

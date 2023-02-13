@@ -5,6 +5,7 @@ import AboutUsPage from "./pages/AboutUsPage";
 import React from "react";
 import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
+import Reuse from "./pages/Reuse";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<HomePage />}></Route>
+        <Route path="/Reuse" element={<Reuse/>}></Route>
         <Route path="/about" element={<AboutUsPage />}></Route>
       </Routes>
     </React.Fragment>
