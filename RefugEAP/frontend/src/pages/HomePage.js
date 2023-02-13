@@ -8,13 +8,8 @@ function HomePage() {
       <div class="logo">
         {/* <img src={logo} alt="logo"></img> */}
       </div>
-      <div class="navBar">
-        <ul>
-          <li><a href='home.html'> Home </a></li>
-          <li><a href='about.html'> About Us</a></li>
-        </ul>
-      </div>
       <div class="keyInfo">
+        <br></br>
         <p>EAP for Social Justice is one of the special interest groups of BALEAP, which is the global forum for English for Academic Purposes professionals. Our focus is on promoting social justice focused awareness, research and practice in the field of EAP.</p>
       </div>
       <div class="programButton">
@@ -29,8 +24,10 @@ function HomePage() {
       <div class="currentEvents">
         <p> Current event infomation</p>
       </div>
-      <div class="englishPage">
-        <button id='mainButton'>english</button>
+      <div>
+        <a class="englishPage" href="https://www.displacedstudent.org.uk/" target="_blank" rel="noopener noreferrer">
+          <button id='mainButton'>English Provisions</button>
+        </a>
       </div>
     </div>
   );
