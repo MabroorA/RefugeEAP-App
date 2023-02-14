@@ -3,7 +3,7 @@ import './css/Reuse.css';
 
 function Reuse() {
   return (
-    <div className='container'>
+    <div className='Page'>
       <div className='context1'>
       <p>
       To navigate the Padlets below, you can scroll up and down, and also left and right.

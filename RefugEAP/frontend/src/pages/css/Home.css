@@ -29,37 +29,12 @@
 .englishPage{
     padding: 20%;
     text-align: right;
+    text-decoration: none;
 }
 
 .navBar{
     display: inline;
     width: 10%;
-}
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  padding-left: 20%;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  padding: 8px;
-  background-color: #4bff57;
-  border-radius: 8px;
-  color:black;
-  font-weight: 800;
-
-}
-li a:hover{
-    background-color: #3ec747;
 }
 
 .logo{
