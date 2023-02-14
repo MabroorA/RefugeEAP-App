@@ -12,7 +12,7 @@ const About = () => {
           <img src={about} class="about-photo" alt="awesome beach" />
         </div>
         <article class="about-info">
-          <h3>explore the difference</h3>
+          <h3>improve academic english</h3>
           <p>
             The RefugEAP Network’s overarching objective is to facilitate the
             development of widening participation initiatives enabling
