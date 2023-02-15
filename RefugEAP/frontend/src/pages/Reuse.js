@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/Reuse.css';
 
-function Reuse() {
+const Reuse = () =>  {
   return (
     <div className='Page'>
       <div className='context1'>

@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<HomePage />}></Route>
-        <Route path="/reuse" element={<Reuse/>}></Route>
+        <Route path="/Reuse" element={<Reuse/>}></Route>
         <Route path="/about" element={<AboutUsPage />}></Route>
         <Route path="/event" element={<Event />}></Route>
         <Route path="/refugeap" element={<EAPPage />}></Route>
