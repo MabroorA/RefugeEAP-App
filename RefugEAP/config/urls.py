@@ -25,7 +25,7 @@ urlpatterns = [
     path('refugeap/', TemplateView.as_view(template_name='index.html')),
     path('Reuse/', TemplateView.as_view(template_name='index.html')),
     
-    # path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     # path('', include('pages.urls')),
     # path('reuseBank/', include('reuseBank.urls')),
 ]
