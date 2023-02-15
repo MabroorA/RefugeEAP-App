@@ -4,7 +4,7 @@ function Event() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("/ReactEventView/")
+    fetch("/ReactEventView")
       .then((response) => response.json())
       .then((response) => setData(response.data));
   }, []);

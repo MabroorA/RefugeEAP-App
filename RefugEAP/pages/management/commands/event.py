@@ -1,6 +1,6 @@
 import csv
 from django.core.management.base import BaseCommand
-from .models import Event
+from models import Event
 
 # Import data from a csv file
 class Command(BaseCommand):
@@ -17,3 +17,5 @@ class Command(BaseCommand):
                 my_model, created = Event.objects.get_or_create(name=row['name'], date=row['time'],time=row['time'], more=row['more'])
                 if created:
                     my_model.save()
+command = Command()
+command.handle()
