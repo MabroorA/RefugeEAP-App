@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'frontend',
     'pages',
     'reuseBank',
+    'blog'
 ]
 
 MIDDLEWARE = [
