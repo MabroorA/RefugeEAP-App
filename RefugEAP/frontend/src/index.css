@@ -443,7 +443,7 @@ Footer
   margin-left: 0.5rem;
 }
 
-.section-center {
+.event-center{
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
@@ -465,7 +465,7 @@ Footer
 .event-events {
   height: 100%;
   flex: 10rem;
-  margin-top:   2rem;
+  margin-top:   5rem;
 }
 
 .event-card{
