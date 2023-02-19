@@ -4,7 +4,6 @@ import HomePage from "./pages/HomePage";
 import AboutUsPage from "./pages/AboutUsPage";
 import React from "react";
 import Navbar from "./components/Navbar";
-import Event from "./components/Event";
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import EAPPage from "./pages/EAPPage";
@@ -18,7 +17,6 @@ function App() {
         <Route exact path="/" element={<HomePage />}></Route>
         <Route path="/Reuse" element={<Reuse/>}></Route>
         <Route path="/about" element={<AboutUsPage />}></Route>
-        <Route path="/event" element={<Event />}></Route>
         <Route path="/refugeap" element={<EAPPage />}></Route>
       </Routes>
       <Footer />

@@ -43,3 +43,55 @@ export const studies = [
     href: "https://medium.com/mind-cafe/how-to-win-arguments-with-stupid-stubborn-people-db2a47968f37",
   },
 ];
+
+export const events = [
+  {
+    event: "Event name 1",
+    date: "03 March 2023",
+    time: "0900",
+    more: "More information on...",
+    id: 1,
+  },
+  {
+    event: "Event name 2",
+    date: "04 April 2023",
+    time: "1000",
+    more: "More information on...",
+    id: 2,
+  },
+  {
+    event: "Event name 3",
+    date: "05 May 2023",
+    time: "1300",
+    more: "More information on...",
+    id: 3,
+  },
+  {
+    event: "Event name 4",
+    date: "06 June 2023",
+    time: "0900",
+    more: "More information on...",
+    id: 4,
+  },
+  {
+    event: "Event name 5",
+    date: "07 July 2023",
+    time: "1600",
+    more: "More information on...",
+    id: 5,
+  },
+  {
+    event: "Event name 6",
+    date: "08 August 2023",
+    time: "1100",
+    more: "More information on...",
+    id: 6,
+  },
+  {
+    event: "Event name 7",
+    date: "09 September 2023",
+    time: "1800",
+    more: "More information on...",
+    id: 7,
+  },
+];

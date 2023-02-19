@@ -1,5 +1,4 @@
 import React from 'react';
-import './css/AboutUsPage.css';
 
 const Header = () => {
   return (
