@@ -41,7 +41,7 @@ function HomePage() {
         <div>
           <a
             class="englishPage"
-            href="https://www.displacedstudent.org.uk/"
+            href="/refugeap"
             target="_blank"
             rel="noopener noreferrer"
           >
