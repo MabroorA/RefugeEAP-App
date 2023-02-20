@@ -1,19 +1,40 @@
 .keyInfo{
     margin:auto;
     padding: 3%;
-    width: 30%;
-    font-size: larger;
+    padding-top: 10%;
+    width: 80%;
+    font-size: medium;
     font-weight: 600;
+    overflow: hidden;
+    background-image: url(cssAssets/rainbowBackground.jpg);
+    color:white;
 }
-.programButton{
-    text-align: center;
-    padding: 3%;
+.title{
+    float:left;
+    font-size: xx-large;
+    margin-top: 1%;
+    margin-left:20%;
+}
+.desc{
+    float:left;
+    width:49%;
+    margin-left:10%;
+    
 }
 
-.blogButton{
+.program{
+    margin: auto;
     text-align: center;
     padding: 3%;
+    width: 40%;
 }
+
+.programInfoTitle{
+    padding: 2%;
+    font-weight: 600;
+    font-size: x-large;
+}
+
 .twitter{
     display:flex;
     justify-content:center;
@@ -24,12 +45,6 @@
 .currentEvents{
     text-align: center;
     padding: 3%;
-}
-
-.englishPage{
-    padding: 20%;
-    text-align: right;
-    text-decoration: none;
 }
 
 .navBar{
@@ -45,22 +60,42 @@
 
 #mainButton{
     margin: auto;
+    margin-top: 3%;
     display: block;
-    padding: 2%;
-    background-color: #4bff57;
-    border-color: #b6ffbb;
-    border-radius: 8px;
-    color:black;
-    font-weight: 600;
+    padding: 10px;
+    background-color: #e50d0d;
+    color:rgb(255, 255, 255);
+    font-weight: 400;
+    transition: all 0.3s linear;
+    border-style: none;
+    margin-bottom: 5%;
 }
 
 #mainButton:hover{
-    background-color: #3ec747;
+    background-color: #ffa7a7;
+    color:black;
 }
 
 .currentEvents{
     font-weight: 600;
 }
 
+.EnglishProvTitle{
+    width:auto;
+    margin-left: auto;
+    padding: 2%;
+    font-weight: 600;
+    font-size: x-large;
+    text-align: center;
+}
+
+.englishPage{
+    text-decoration: none;
+}
+
+.EnglishProInfo{
+    text-align: center;
+    font-weight: 400;
+}
 
  
