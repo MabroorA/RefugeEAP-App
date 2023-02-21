@@ -4,6 +4,8 @@
 ```
 $ npm i react-custom-scrollbars
 $ npm install react-calendar
+$ pip install djangorestframework
+$ pip install django-extensions
 ```
 
 ## Connecnt to the localhost / Run the project
