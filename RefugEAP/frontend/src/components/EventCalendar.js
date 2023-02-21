@@ -4,10 +4,10 @@ import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import {events} from '../data'
 
-function EventList() {
+function EventList({props}) {
   return (
     <section>
-      {events.map((event) => {
+      {props.data?.map((event) => {
         return <EventCard event={event} key={event.id} />;
       })}
     </section>
@@ -40,7 +40,9 @@ useEffect(() => {
   const fetchData = async () => {
     try {
       const response = await fetch("http://127.0.0.1:8000/api/");
+      console.log(response)
       const data = await response.json();
+      console.log(data)
       setData(data);
     } catch (error) {
       console.log(error);
@@ -59,7 +61,7 @@ useEffect(() => {
         </div>
         <div className="event-events">
           <Scrollbars className="event-scroll">
-            <EventList />
+            <EventList props={data}/>
           </Scrollbars>
         </div>
       </div>
