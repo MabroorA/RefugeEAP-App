@@ -8,6 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import EAPPage from "./pages/EAPPage";
 import Reuse from "./pages/Reuse";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/" element={<HomePage />}></Route>
         <Route path="/Reuse" element={<Reuse/>}></Route>
         <Route path="/about" element={<AboutUsPage />}></Route>
+        <Route path="/contactus" element={<ContactUs />}></Route>
         <Route path="/refugeap" element={<EAPPage />}></Route>
       </Routes>
       <Footer />

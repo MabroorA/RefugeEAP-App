@@ -1,0 +1,37 @@
+.App {
+    text-align: center;
+  }
+  
+  .header {
+    color: rgb(0, 0, 0);
+  }
+  
+  body {
+    background-color: rgb(215, 215, 215);
+  }
+  
+  .top-half {
+    height: 20vh; /* set the height to half of the viewport height */
+    background-color: rgb(217, 96, 96);
+  }
+  
+  
+  .contact-image {
+    width: 30%;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .App img {
+    float: right;
+    margin-right: 10px;
+  }
+  
+  
+  .second-image {
+    width: 30%;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
