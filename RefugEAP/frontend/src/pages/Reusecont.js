@@ -26,8 +26,8 @@ function Reusecont() {
           will stimulate more SJ research and practice in EAP. Thank you in
           advance for your contributions!
         </p>
-        <h1 className="nub2">Latest Request</h1>
         <secition className="request" id="request">
+          <h1 className="nub2">Latest Request</h1>
           <div className="column">
             <div className="inner"></div>
             <hr></hr>
@@ -66,8 +66,8 @@ function Reusecont() {
           <br></br>
           <br></br>
         </secition>
-        <h1 className="nub2">Item Avaliable</h1>
-        <section className="item" id='item'>
+        <section className="item" id="item">
+          <h1 className="nub2">Item Avaliable</h1>
           <div className="column">
             <div className="inner"></div>
             <hr></hr>
