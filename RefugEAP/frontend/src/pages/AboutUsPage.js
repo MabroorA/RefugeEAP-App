@@ -1,42 +1,106 @@
-import React from 'react';
+import React from "react";
+import "./css/AboutUsPage.css";
 
-const Header = () => {
+const AboutUs = () => {
   return (
-    <header style={{ backgroundColor: 'gold' }}>
-      <h1 style={{ color: 'black' }}>About Us</h1>
-    </header>
-  );
-};
+    <div>
+      <br />
+      <br />
 
-function AboutUsPage() {
-  return (
-    <div style={{ backgroundColor: 'beige' }}>
-      <Header />
-      <div>
-        <p>
-        RefugEAP is a free online pre-university academic English skills programme for refugee-background students across the UK. It is for students who need to improve their academic English skills to help them access a degree programme at university, but perhaps have not 
-        been able to access a formal pre-sessional English for Academic Purposes (EAP) programme yet. RefugEAP has been developed
-         to meet this need, providing students with an opportunity to continue to 
-        develop their academic English skills in a supportive way while they a
-        re waiting for more formal opportunities to become available
-        </p>
-        <p>
-        The RefugEAP Programme has been designed by staff at the University of Leicester’s Sanctuary Seekers’ Unit and the University of Leeds Language Centre. 
-        It is being kindly supported by dedicated volunteer tutors and a number of partner organisations, including Password Testing (who are providing assessments), Screen Share
-         (who are providing digital devices for students who need them) and RefuAid (who are providing wrap-around support and referrals) and Oxford University Press (who have provided online course books).
-        </p>
-        <img src="data:image/png;base64,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" data-deferred="1" class="rg_i Q4LuWd" jsname="Q4LuWd" width="500" height="200" alt="RefugEAP programme | Sanctuary Seekers' Unit | University of Leicester" data-atf="true" data-iml="799.2999999523163"></img>
-        <p>
-          General inquires: Email us at sanctuary@le.ac.uk
-
-        </p>
+      <div className="section" id="aboutus">
+        <div className="content-section">
+          <div className="title">
+            <h1>About Us</h1>
+          </div>
+          <div className="content">
+            <h2>Our Aims</h2>
+          </div>
+          <ul>
+            <div id="paragraph">
+              <li>
+                To put social justice on the agenda in EAP discussions
+                concerning learning, teaching, scholarship of teaching and
+                learning, research and operational matters, in part through
+                widening the parameters of the field.
+              </li>
+              <li>
+                To demonstrate the value of adopting a social justice lens in
+                EAP, by broadening and strengthening the evidence base of the
+                impact that this can make in our field.
+              </li>
+              <li>
+                To work together with relevant organisations, movements and
+                initiatives in recognition of the complexity and
+                intersectionality of social justice work.
+              </li>
+              <li>
+                To facilitate the creation of a welcoming and active EAP for SJ
+                community of practice, through which participants can support
+                each other, share good practice and be inspired to take action
+                within their sphere of influence.
+              </li>
+            </div>
+          </ul>
+          <h2>Our Rationale</h2>
+          <h3>A pragmatic view</h3>
+          <ul>
+            <div className="paragraphs2">
+              <li>
+                Indeed, pragmatists may argue that the role of the EAP
+                practitioner is, and should continue to be, limited to the nuts
+                and bolts of teaching, learning, curriculum design and
+                assessment, and that involvement in wider ideological concerns
+                is beyond our remit. Such a perspective is often reinforced by
+                the current trends towards the marketisation and commodification
+                of programmes of study within the HE sector, which tends to
+                instrumentalise activities related to these, thereby promoting
+                in some learners and teachers a narrowing in how they see
+                themselves and their roles. When seen in the light of Fromm’s
+                humanist philosophy, such instrumentalisation can be regarded in
+                terms of a general shift from being to having; from being a
+                learner (or an educator) to having (or giving) a qualification
+                in order to increase a student’s employability prospects through
+                socialising them into existing cultural norms (Molesworth, Nixon
+                & Scullion, 2009). An unequivocal alignment with this stance
+                would imply that one believes that social justice has little to
+                do with either EAP or with the remit of HEIs more generally.
+              </li>
+              <li>
+                ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+              </li>
+              <h3>An alternative view</h3>
+              <li>
+                However, there is a small but growing movement against this
+                normative stance, stemming from the work of Freire (1970:
+                foreword), who stated: There is no such thing as a neutral
+                education process. Education either functions as an instrument
+                which is used to facilitate the integration of generations into
+                the logic of the present system and bring about conformity to
+                it, or it becomes the ‘practice of freedom’, the means by which
+                men and women deal critically with reality and discover how to
+                participate in the transformation of their world.
+              </li>
+              <li>
+                In terms of how Freirean philosophy has been applied to EAP, it
+                is most overtly evident in the literature on Critical EAP and
+                Academic Literacies, which both use a social justice lens to
+                encourage teachers and learners to critique the underlying power
+                structures of HEIs, specific disciplines, academia more widely
+                and society as a whole in order to challenge inequality in its
+                many forms. Though intuitively appealing to many EAP
+                practitioners who regard themselves as educators in the
+                humanistic tradition and who encourage learners to belearners,
+                these two research streams have not made a significant impact on
+                the mainstream theories and practices of EAP to date (Ding &
+                Bruce, 2017), though Academic Literacies has made more of an
+                impact in the field of Learning Development.
+              </li>
+            </div>
+          </ul>
+        </div>
       </div>
     </div>
   );
-}
+};
 
-export default AboutUsPage;
+export default AboutUs;

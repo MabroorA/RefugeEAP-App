@@ -16,7 +16,7 @@ class Navbar extends Component {
                         <li key={index}>
                             <a href={item.url}
                             className={item.cName} >
-                                <i className={item.icon}>
+                                <i class={item.icon}>
                                     {item.title}
                                 </i>
                             </a>

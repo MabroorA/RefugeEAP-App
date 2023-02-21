@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-big-calendar": "^1.6.8",
+    "react-calendar": "^4.0.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-datepicker": "^4.10.0"
+  }
+}
