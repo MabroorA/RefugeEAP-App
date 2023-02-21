@@ -33,8 +33,16 @@ function HomePage() {
           </div>
           <div class="progL">{/*<image src={image} alt="test"></image>*/}</div>
         </div>
-        <div class="blogButton">
-          <button id="mainButton">BLOG PLACEHOLDER</button>
+      </div>
+      <div class="blogButton">
+        <button id="mainButton">BLOG PLACEHOLDER</button>
+      </div>
+      <div class="twitter">
+        <a class="twitter-timeline" href="https://twitter.com/RefugEAP?ref_src=twsrc%5Etfw" data-width="600" data-height="400" data-chrome="noscrollbar">Tweets by RefugEAP, note: will not load on local host but is functional once hosted </a>
+      </div>
+      <div>
+        <div class="EnglishProvTitle">
+          English Provisions
         </div>
         <div class="twitter">
           <a
@@ -47,10 +55,6 @@ function HomePage() {
             Tweets by RefugEAP, note: will not load on local host but is
             functional once hosted{" "}
           </a>
-        </div>
-        <div class="currentEvents">
-          <p> EVENT PLACEHOLDER</p>
-          {/** <EventCalendar />*/}
         </div>
         <div>
           <div class="EnglishProvTitle">English Provisions</div>

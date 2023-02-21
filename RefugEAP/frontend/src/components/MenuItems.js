@@ -24,7 +24,7 @@ export const MenuItems = [
         icon:"fa-solid fa-mobile"
     },
     {
-        title:'RefugeAP',
+        title:'RefugEAP',
         url: '#',
         cName: 'nav-links',
         icon:"fa-solid fa-address-book"

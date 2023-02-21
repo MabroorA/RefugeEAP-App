@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-big-calendar": "^1.6.8",
+    "react-datepicker": "^4.10.0"
+  }
+}

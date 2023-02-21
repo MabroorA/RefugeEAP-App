@@ -24,17 +24,22 @@ const EventCard = ({event}) => {
   );
 };
 
+
+
 const EventCalendar = () => {
   const [data, setData] = useState([]);
   const [value, onChange] = useState(new Date());
 
+  // useEffect(() => {
+  //   fetch("http://127.0.0.1:8000/api/")
+  //     .then((response) => response.json())
+  //     .then((data) => setData(data));
+  // }, []);
 useEffect(() => {
   const fetchData = async () => {
     try {
       const response = await fetch("http://127.0.0.1:8000/api/");
-      console.log(response)
       const data = await response.json();
-      console.log(data)
       setData(data);
     } catch (error) {
       console.log(error);
