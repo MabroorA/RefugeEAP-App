@@ -1,5 +1,11 @@
 # RefugEAP Network
 
+### Packages to install
+```
+$ npm i react-custom-scrollbars
+$ npm install react-calendar
+```
+
 ## Connecnt to the localhost / Run the project
 
 ```
@@ -8,3 +14,4 @@
 (RefugEAP) $ python manage.py runserver
 ```
 > You need to re-do these steps if you have made new changes
+
