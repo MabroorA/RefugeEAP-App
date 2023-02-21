@@ -13,11 +13,11 @@ function EventList() {
     </section>
   );
 }
-const EventCard = (props) => {
-  const { event, date, time, more } = props.event;
+const EventCard = ({event}) => {
+  const { name, date, time, more, id } = event;
   return (
-    <div className="event-card">
-      <h4>Event: {event}</h4>
+    <div className="event-card" key={id}>
+      <h4>Event: {name}</h4>
       <h4>Date: {date} </h4>
       <h4>Time: {time} </h4>
       <h4>More: {more} </h4>
@@ -26,16 +26,28 @@ const EventCard = (props) => {
 };
 
 
+
 const EventCalendar = () => {
   const [data, setData] = useState([]);
+  const [value, onChange] = useState(new Date());
 
-  useEffect(() => {
-    fetch("/ReactEventView")
-      .then((response) => response.json())
-      .then((response) => setData(response.data));
-  }, []);
-
-    const [value, onChange] = useState(new Date());
+  // useEffect(() => {
+  //   fetch("http://127.0.0.1:8000/api/")
+  //     .then((response) => response.json())
+  //     .then((data) => setData(data));
+  // }, []);
+useEffect(() => {
+  const fetchData = async () => {
+    try {
+      const response = await fetch("http://127.0.0.1:8000/api/");
+      const data = await response.json();
+      setData(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  fetchData();
+}, []);
     return (
     <section className="section" id="event">
       <div className="section-title">
@@ -43,7 +55,7 @@ const EventCalendar = () => {
       </div>
       <div className="section-center event-center">
         <div className="event-calendar">
-          <Calendar onChange={onChange} value={value} className="event-table"/>
+          <Calendar onChange={onChange} value={value} className="event-table" />
         </div>
         <div className="event-events">
           <Scrollbars className="event-scroll">
