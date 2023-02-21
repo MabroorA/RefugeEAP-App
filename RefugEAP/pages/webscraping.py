@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup as bs
 import requests
 import csv
-from datetime import datetime, timedelta
+import datetime
 
 # Still figuring out how to get client's data so I am extracting some irrelevant data to help set up interface first
 url = "https://www.eventbrite.co.uk/d/united-kingdom--city-of-leicester/all-events/"
@@ -28,29 +28,22 @@ details = [detail.get_text() for detail in date_time_list]
 date = []
 time = []
 for detail in details:
-
     detail_list = detail.split(',')
-    if len(detail_list) <= 1:
-        next_day = datetime.now() + timedelta(1)
-        date.append(next_day.strftime('%Y-%m-%d'))
-        time.append('18:00')
-    else:
-        detail_list[2] = detail_list[2][:6]
-        # Remove space in every string in the list
-        new_detail_list = [d.strip() for d in detail_list]
+    detail_list = [d.strip() for d in detail_list]
+    detail_list[2] = detail_list[2][:5]
 
-        # the 2nd element in the list is the time
-        time.append(new_detail_list[2])
-        new_detail_list.remove(new_detail_list[2])
+    # the 2nd element in the list is the time
+    time.append(detail_list[2])
+    detail_list.remove(detail_list[2])
 
-        # 0 and 1st elements are i.e. "Tue", "Feb 27"
-        new_detail_list = ' '.join(new_detail_list)
-        date_list = new_detail_list + " 2023"
+    # 0 and 1st elements are i.e. "Tue", "Feb 27"
+    detail_list = ' '.join(detail_list)
+    detail_list = detail_list + " 2023"
 
-        # Change the date format
-        new_date = datetime.strptime(date_list, '%a %b %d %Y')
-        new_date_string = new_date.strftime('%Y-%m-%d')
-        date.append(new_date_string)
+    # Change the date format
+    new_date = datetime.datetime.strptime(detail_list, '%a %b %d %Y')
+    new_date_string = new_date.strftime('%d-%m-%Y')
+    date.append(new_date_string)
 
 # Create column name | names, date, time, links
 column_names = ['Name', 'Date', 'Time', 'More']
