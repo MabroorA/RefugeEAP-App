@@ -1,15 +1,10 @@
-import React from 'react';
-import './Reuse.css';
+import React from "react";
+import "./Reuse.css";
 import './Reusecont';
-import Reusecont from './Reusecont';
-
+import Reusecont from "./Reusecont";
 
 function Reuse() {
-  return ( 
-    <div className="App">
-        <Reusecont/>
-    </div>
-)
+  return <Reusecont />;
 }
 
 export default Reuse;

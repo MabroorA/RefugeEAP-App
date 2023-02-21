@@ -2,7 +2,6 @@ import { Scrollbars } from "react-custom-scrollbars";
 import React, { useState, useEffect } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
-import {events} from '../data'
 
 function EventList({props}) {
   return (
