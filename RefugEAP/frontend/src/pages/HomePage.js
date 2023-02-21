@@ -33,7 +33,6 @@ function HomePage() {
           </div>
           <div class="progL">{/*<image src={image} alt="test"></image>*/}</div>
         </div>
-<<<<<<< HEAD
       </div>
       <div class="blogButton">
         <button id="mainButton">BLOG PLACEHOLDER</button>
@@ -48,10 +47,6 @@ function HomePage() {
       <div>
         <div class="EnglishProvTitle">
           English Provisions
-=======
-        <div class="blogButton">
-          <button id="mainButton">BLOG PLACEHOLDER</button>
->>>>>>> 3d8fc85eb782d00512b318dd6d4548e7324ca90e
         </div>
         <div class="twitter">
           <a
@@ -84,7 +79,6 @@ function HomePage() {
           </a>
         </div>
       </div>
-      <EventCalendar />
     </>
   );
 }
