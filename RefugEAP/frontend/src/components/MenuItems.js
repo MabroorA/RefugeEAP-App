@@ -25,7 +25,7 @@ export const MenuItems = [
   },
   {
     title: "RefugEAP",
-    url: "/refugEAP",
+    url: "/refugeap",
     cName: "nav-links",
     icon: "fa-solid fa-address-book",
   },
