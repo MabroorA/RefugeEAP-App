@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'frontend',
     'pages',
     'reuseBank',
-    'blog'
+    'blog',
+    'django_extensions',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
