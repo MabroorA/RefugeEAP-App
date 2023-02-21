@@ -1,7 +1,7 @@
 import './css/Home.css';
 import React from 'react';
 // import logo from './logo.jpg'
-//import EventCalendar from '../components/EventCalendar'
+import EventCalendar from '../components/EventCalendar'
 
 function HomePage() {
   return (
@@ -33,7 +33,7 @@ function HomePage() {
       </div>
       <div class="currentEvents">
         <p> EVENT PLACEHOLDER</p>
-        {/** <EventCalendar />*/}
+        {<EventCalendar />}
       </div>
       <div>
         <div class="EnglishProvTitle">

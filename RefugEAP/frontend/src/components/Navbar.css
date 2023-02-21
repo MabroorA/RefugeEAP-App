@@ -17,7 +17,8 @@ ul {
     margin-left: 50%;
     height: 10%;
     border-radius: 1%;
-    top:0; 
+    top:0;
+    z-index: 2;
 }
 
 .logo{
