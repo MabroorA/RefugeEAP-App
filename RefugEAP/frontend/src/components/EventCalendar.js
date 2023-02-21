@@ -53,7 +53,7 @@ const events = [
  function EventList() {
   /*return (
     <section>
-      {events.map((event) => {
+      {props.data?.map((event) => {
         return <EventCard event={event} key={event.id} />;
       })}
     </section>
@@ -64,8 +64,8 @@ const events = [
 const EventCard = (props) => {
   const { event, date, time, more } = props.event;
   return (
-    <div className="event-card">
-      <h4>Event: {event}</h4>
+    <div className="event-card" key={id}>
+      <h4>Event: {name}</h4>
       <h4>Date: {date} </h4>
       <h4>Time: {time} </h4>
       <h4>More: {more} </h4>
@@ -76,6 +76,7 @@ const EventCard = (props) => {
 
 function EventCalendar() {
   const [data, setData] = useState([]);
+  const [value, onChange] = useState(new Date());
 
   useEffect(() => {
     fetch("/ReactEventView")
