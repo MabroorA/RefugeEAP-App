@@ -4,10 +4,14 @@ margin:0px;
 padding: 3px;
 box-sizing: border-box;
 }
-.section #aboutus{
+.section{
 width: 100%;
 min-height: 0vh;
 
+}
+.content-section h1{
+	text-align: center;
+	margin-left: 265px;
 }
 .content-section h2{
 	text-align: center;
