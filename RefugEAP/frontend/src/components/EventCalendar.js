@@ -1,6 +1,7 @@
 import { Scrollbars } from "react-custom-scrollbars";
 import React, { useState, useEffect } from "react";
-import Calendar from "react-calendar";
+// import Calendar from "react-calendar";
+import Calendar2 from "./Calendar";
 import "react-calendar/dist/Calendar.css";
 
 function EventList({props}) {
@@ -24,17 +25,10 @@ const EventCard = ({event}) => {
   );
 };
 
-
-
 const EventCalendar = () => {
   const [data, setData] = useState([]);
   const [value, onChange] = useState(new Date());
 
-  // useEffect(() => {
-  //   fetch("http://127.0.0.1:8000/api/")
-  //     .then((response) => response.json())
-  //     .then((data) => setData(data));
-  // }, []);
 useEffect(() => {
   const fetchData = async () => {
     try {
@@ -54,7 +48,8 @@ useEffect(() => {
       </div>
       <div className="section-center event-center">
         <div className="event-calendar">
-          <Calendar onChange={onChange} value={value} className="event-table" />
+          {/* <Calendar onChange={onChange} value={value} className="event-table" /> */}
+          <Calendar2/>
         </div>
         <div className="event-events">
           <Scrollbars className="event-scroll">

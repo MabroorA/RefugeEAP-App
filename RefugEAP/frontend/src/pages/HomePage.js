@@ -56,6 +56,7 @@ function HomePage() {
           </a>
         </div>
       </div>
+      <EventCalendar/>
     </>
   );
 }

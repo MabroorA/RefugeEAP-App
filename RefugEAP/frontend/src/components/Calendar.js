@@ -1,7 +1,7 @@
 import { Scrollbars } from "react-custom-scrollbars";
 import React, { useState, useEffect } from "react";
 import {Calendar, dateFnsLocalizer} from "react-big-calendar";
-import './EventCalendar.css';
+// import './Calendar;.css';
 import format from "date-fns/format";
 import parse from "date-fns/parse";
 import startOfWeek from "date-fns/startOfWeek";
@@ -48,33 +48,7 @@ const events = [
   }
 ]
 
-
-
- function EventList() {
-  /*return (
-    <section>
-      {props.data?.map((event) => {
-        return <EventCard event={event} key={event.id} />;
-      })}
-    </section>
-  );*/
-}
-
-/*
-const EventCard = (props) => {
-  const { event, date, time, more } = props.event;
-  return (
-    <div className="event-card" key={id}>
-      <h4>Event: {name}</h4>
-      <h4>Date: {date} </h4>
-      <h4>Time: {time} </h4>
-      <h4>More: {more} </h4>
-    </div>
-  );
-}; */
-
-
-function EventCalendar() {
+function Calendar2() {
   const [data, setData] = useState([]);
   const [value, onChange] = useState(new Date());
 
@@ -120,4 +94,4 @@ function EventCalendar() {
   );
 }
 
-export default EventCalendar
+export default Calendar2;
