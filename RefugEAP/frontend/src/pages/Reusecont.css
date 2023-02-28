@@ -8,15 +8,11 @@
 }
 
 .para {
-  margin-bottom: 0;
+  margin-top: 7%;
+  margin-bottom: 7%;
   width: 50%;
   font-size: 70%;
   border-style: groove;
-}
-
-.column {
-  border-style: solid;
-  border-color: black;
 }
 
 h1.nub2 {
@@ -28,13 +24,17 @@ h1.nub2 {
   font-family: "Times New Roman", Times, serif;
 }
 
+
+
 .inner {
   border-style: solid;
+  padding: 15%;
 }
 
 .button {
-  margin-top: 5%;
-  margin-left: 25%;
+  position: relative;
+  left: 35%;
+  width: 30%;
   font-size: xx-small;
   cursor: pointer;
 }
@@ -50,16 +50,9 @@ h1.nub2 {
 }
 .column {
   float: left;
-  margin: 0 2rem;
-  width: 5rem;
+  margin: 1rem 4rem 5rem;
+  width: 30%;
   padding: 1px;
-  border-color: aqua;
-}
-
-h1.nub2 {
-  text-align: center;
-  text-decoration: underline;
-  font-size: 40px;
-  color: rgba(224, 210, 209);
-  font-family: "Times New Roman", Times, serif;
+  border-style: solid;
+  border-color: beige;
 }

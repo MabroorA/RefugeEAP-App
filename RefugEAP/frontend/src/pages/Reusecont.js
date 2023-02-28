@@ -26,9 +26,13 @@ function Reusecont() {
           will stimulate more SJ research and practice in EAP. Thank you in
           advance for your contributions!
         </p>
+
+      
         <secition className="request" id="request">
           <h1 className="nub2">Latest Request</h1>
+          
           <div className="column">
+            <div className="space">
             <div className="inner"></div>
             <hr></hr>
 
@@ -36,8 +40,12 @@ function Reusecont() {
               Upload
             </button>
           </div>
+          </div>
+          
 
+          
           <div className="column">
+            <div className="space">
             <div className="inner"></div>
             <hr></hr>
 
@@ -45,21 +53,26 @@ function Reusecont() {
               Upload
             </button>
           </div>
+          </div>
+        
           <div className="column">
+            <div className="space">
             <div className="inner"></div>
             <hr></hr>
             <button className="button" type="submit">
               Upload
             </button>
           </div>
+          </div>
 
           <div className="column">
+            <div className="space">
             <div className="inner"></div>
             <hr></hr>
-
             <button className="button" type="submit">
               Upload
             </button>
+          </div>
           </div>
 
           <br></br>
@@ -69,6 +82,7 @@ function Reusecont() {
         <section className="item" id="item">
           <h1 className="nub2">Item Avaliable</h1>
           <div className="column">
+            <div className="space">
             <div className="inner"></div>
             <hr></hr>
 
@@ -76,8 +90,10 @@ function Reusecont() {
               Upload
             </button>
           </div>
+          </div>
 
           <div className="column">
+            <div className="space">
             <div className="inner"></div>
             <hr></hr>
 
@@ -85,21 +101,26 @@ function Reusecont() {
               Upload
             </button>
           </div>
+          </div>
           <div className="column">
+            <div className="space">
             <div className="inner"></div>
             <hr></hr>
             <button className="button" type="submit">
               Upload
             </button>
           </div>
+          </div>
 
           <div className="column">
+            <div className="space">
             <div className="inner"></div>
             <hr></hr>
 
             <button className="button" type="submit">
               Upload
             </button>
+          </div>
           </div>
         </section>
       </div>
