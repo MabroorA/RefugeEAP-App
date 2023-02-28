@@ -1,5 +1,9 @@
 export const MenuItems = [
   {
+    title: "RefugEAP",
+    cName: "logo",
+  },
+  {
     title: "Home",
     url: "/",
     cName: "nav-links",
@@ -9,24 +13,24 @@ export const MenuItems = [
     title: "Reuse",
     url: "/Reuse",
     cName: "nav-links",
-    icon: "fa-solid fa-circle-info",
+    icon: "",
   },
   {
     title: "About us",
     url: "/about",
     cName: "nav-links",
-    icon: "fa-solid fa-address-book",
+    icon: "",
   },
   {
     title: "Contact Us",
     url: "/contactus",
     cName: "nav-links",
-    icon: "fa-solid fa-mobile",
+    icon: "",
   },
   {
     title: "RefugEAP",
     url: "/refugeap",
     cName: "nav-links",
-    icon: "fa-solid fa-address-book",
+    icon: "",
   },
 ];

@@ -13,7 +13,7 @@ ul {
     padding:0 30px;
     background-color:rgb(64, 42, 13);
     box-shadow: 0 5px 15px rgb(237, 234, 230) ;
-    width: 100%;
+    width: 110%;
     margin-left: 49.35%;
     height: 10%;
     border-radius: 1%;
@@ -21,26 +21,38 @@ ul {
     z-index: 2;
 }
 
-.logo{
-    color: rgb(240, 237, 233);
-}
 
+/*
+.logo{
+    position: relative;
+    margin-right: 0%;
+    color: rgb(240, 237, 233);
+    font-size: xx-large;
+}
+*/
+/*
 .Clogo{
     margin-left: 0.2rem;
     font-size: 1.6rem ;
 
 }
-
+*/
 .bar{
     display:grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 10%; 
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 5%; 
     text-align: center;
     align-items: center;
     list-style: none;
     font-size: 60%;
-    margin-right: 10%;
-    justify-content: end;
+    margin-right: 0;
+    justify-content: start;
+}
+
+.logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: rgb(235, 207, 155);
 }
 
 .nav-links{

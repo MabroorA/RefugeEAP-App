@@ -8,11 +8,13 @@ class Navbar extends Component {
         
         return(
             <nav className='NavbarItems'>
-                <h1 className='logo'> RefugEAP <img alt="" className='Clogo' src ="/src/images/RefugEAP.jpg"/>
-                </h1>
+                
+                
                 <ul className='bar'>
+                    
                     {MenuItems.map((item,index)=>{
                         return(
+                
                         <li key={index}>
                             <a href={item.url}
                             className={item.cName} >
