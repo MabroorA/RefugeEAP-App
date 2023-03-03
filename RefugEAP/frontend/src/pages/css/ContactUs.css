@@ -17,10 +17,10 @@
   
   
   .contact-image {
-    width: 30%;
-    height: 300px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   .App img {
@@ -30,8 +30,13 @@
   
   
   .second-image {
-    width: 30%;
-    height: 300px;
+    width: 100%;
+    height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  h1 {
+    font-size: 15px; 
+    font-family: Arial, sans-serif; 
+}
