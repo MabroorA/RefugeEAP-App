@@ -1,4 +1,4 @@
-import './JoinUs.css';
+import './css/JoinUs.css';
 import React from 'react';
 
 function HomePage() {
