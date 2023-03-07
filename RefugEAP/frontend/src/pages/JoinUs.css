@@ -1,0 +1,46 @@
+#title{
+    text-align: center;
+    padding: 4%;
+}
+
+#interest{
+    text-align: center;
+    padding: 4%;
+}
+
+#contact{
+    text-align: center;
+    padding: 4%;
+}
+
+#mailing{
+    text-align: center;
+    padding: 4%;
+}
+
+#inquiry{
+    margin-left:20%;
+    padding: 4%;
+}
+
+
+#UniMailList{
+    text-align: center;
+    padding: 4%;
+}
+
+#fname{
+    margin-right: 1%;
+}
+#sname{
+    margin-bottom: 1%;
+}
+
+#EmailIn{
+    padding-left: 30%;
+}
+
+.link{
+    text-decoration: none;
+}
+
