@@ -1,7 +1,7 @@
 import './css/JoinUs.css';
 import React from 'react';
 
-function HomePage() {
+function JoinUs() {
   return (
     <div id="page">
       <div id="title">
@@ -37,4 +37,4 @@ function HomePage() {
 }
 
 
-export default HomePage;
+export default JoinUs;

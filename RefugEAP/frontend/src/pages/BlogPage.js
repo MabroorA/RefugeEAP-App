@@ -64,10 +64,15 @@ const BlogPage = () => {
           margin: 0,
           minWidth: "100vw",
           minHeight: "100vh",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
         }}
       >
-        <h1>Blog</h1>
-        <Blogs />
+        <div className="blog-title" style={{}}>
+          <h1>Blog</h1>
+        </div>
+        <Blogs style={{ display: "grid" }} />
       </Row>
     </Container>
   );
