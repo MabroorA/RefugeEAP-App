@@ -1,6 +1,7 @@
 import React from "react";
 import about from "../images/about.jpg";
 import Title from "./Title";
+import "./RefugEAP.css";
 
 const About = () => {
   return (

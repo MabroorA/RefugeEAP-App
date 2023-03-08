@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 // import Calendar from "react-calendar";
 import Calendar2 from "./Calendar";
 import "react-calendar/dist/Calendar.css";
+import "./RefugEAP.css";
 
 function EventList({props}) {
   return (

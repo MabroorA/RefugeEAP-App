@@ -1,4 +1,5 @@
 import React from "react";
+import "./RefugEAP.css";
 
 const Hero = () => {
   return (

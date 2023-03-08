@@ -7,7 +7,7 @@ import "./Reusecont.css";
 function Reusecont() {
   return (
     <>
-      <div className="row">
+      <div className="row-1">
         <p className="para">
           The BALEAP EAP for Social Justice SIG (@EAPforSJ /
           https://eap4socialjustice.net/) has put together this Padlet wall of

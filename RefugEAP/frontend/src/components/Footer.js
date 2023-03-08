@@ -1,5 +1,6 @@
 import React from "react";
 import { pageLinks, socialLinks } from "../data";
+import "./RefugEAP.css";
 
 const Footer = () => {
   return (
