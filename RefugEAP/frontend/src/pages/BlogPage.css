@@ -1,13 +1,82 @@
-html, body {
-    margin: 0;
-    
+:root {
+  /* Blog Main Page colour */
+
+  /* Blog Submission Page colour scheme */
+  --blog-yellow-1: hsl(45, 100%, 55%);
+  --blog-purple-1: hsl(330, 69%, 41%);
+
+  /* font */
+  --blog-title-1: "Anton", sans-serif;
 }
 
+html,
+body {
+  margin: 0;
+}
+
+h1,
 p {
-    color: rgb(250, 237, 222);
-    font-size: 1.5rem;
+  color: rgb(131, 131, 130);
+  font-size: 1.5rem;
+  font-family: "Climate Crisis";
 }
 
-h1 {
-    color: rgb(250, 237, 222);
+.blogRight h1,
+.blogRight p {
+  color: rgb(250, 250, 247);
+}
+
+.blog-blogs p,
+.blog-blogs h1,
+.key {
+  color: rgb(131, 131, 130);
+}
+
+/* Blog sumbission page */
+/* Submission Page Hero Banner */
+.form-hero {
+  background: var(--blog-yellow-1);
+  min-width: 100vw;
+  min-height: 40vh;
+  align-items: center;
+}
+
+.form-title {
+  justify-content: center;
+  display: flex;
+  align-self: flex-end;
+  padding-bottom: 2rem;
+}
+
+.form-title h1 {
+  color: var(--blog-purple-1);
+  font-family: var(--blog-title-1);
+  font-size: 4rem;
+}
+
+/* Submission Page Main Part */
+.form-main {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.form-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-format dl {
+  font-size: 1.5rem;
+  width: 50vw;
+}
+
+dt,
+dd {
+  padding-top: 2rem;
+}
+
+/* Submission Page Form */
+form {
+  min-height: 100vh;
 }

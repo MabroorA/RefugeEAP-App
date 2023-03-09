@@ -1,10 +1,20 @@
-import React from 'react'
-import BlogCard from './BlogCard'
+import React from 'react';
+import BlogCard from './BlogCard';
+import Pagination from "react-bootstrap/Pagination";
 
-const Blogs = () => {
+const Blogs = ({props}) => {
+  const numOfBlogsPerPage = 5;
+  
   return (
-    <BlogCard/>
-  )
+    <>
+      {props?.map((blog) => {
+        return (
+            <BlogCard blog={blog} />
+        ); 
+      })}
+    </>
+
+  );
 }
 
-export default Blogs
+export default Blogs;

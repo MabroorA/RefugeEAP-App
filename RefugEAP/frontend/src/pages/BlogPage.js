@@ -6,11 +6,13 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./BlogPage.css";
 import Button from "react-bootstrap/Button";
+import { blogs } from "../data";
 
 const BlogPage = () => {
   return (
-    <Container fluid style={{ padding: 0 }}>
+    <Container className="blog-main" fluid style={{ padding: 0 }}>
       <Row
+        className="blog-hero"
         style={{
           background: "hsl(16,50%,72%)",
           margin: 0,
@@ -30,7 +32,10 @@ const BlogPage = () => {
       >
         <Col style={{ background: "hsl(17,81%,85%)" }}>
           <div className="blogLeft" style={{ padding: "5em" }}>
-            <h1> WHAT ARE BLOGS?</h1>
+            <h1>
+              {" "}
+              WHAT ARE <span style={{color: 'hsl(17,81%,56%)'}}>BLOGS?</span>
+            </h1>
             <p style={{ paddingTop: "1em" }}>
               HERE Insights are provided by experts within the network based on
               academic research, policy documentation and case studies of the
@@ -39,7 +44,7 @@ const BlogPage = () => {
               dialogue across the network about critical issues and links to
               relevant resources within the database are provided.
             </p>
-            <Button variant="outline-light" size="lg">
+            <Button variant="outline-secondary" size="lg" href="#blogs">
               READ
             </Button>{" "}
           </div>
@@ -68,11 +73,20 @@ const BlogPage = () => {
           justifyContent: "center",
           alignItems: "center",
         }}
+        className="blog-blogs"
+        id="blogs"
       >
-        <div className="blog-title" style={{}}>
-          <h1>Blog</h1>
+        <div
+          className="blog-title"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <h1 style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>Blog</h1>
         </div>
-        <Blogs style={{ display: "grid" }} />
+        <Blogs props={blogs} style={{ display: "flex" }} />
       </Row>
     </Container>
   );

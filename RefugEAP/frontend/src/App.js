@@ -11,6 +11,7 @@ import Reuse from "./pages/Reuse";
 import ContactUs from "./pages/ContactUs";
 import BlogPage from "./pages/BlogPage";
 import JoinUs from "./pages/JoinUs";
+import BlogSubmission from "./pages/BlogSubmission";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/refugeap" element={<EAPPage />}></Route>
         <Route path="/join" element={<JoinUs />}></Route>
         <Route path="/blog" element={<BlogPage />}></Route>
+        <Route path="/form" element={<BlogSubmission />}></Route>
       </Routes>
       <Footer />
     </React.Fragment>
