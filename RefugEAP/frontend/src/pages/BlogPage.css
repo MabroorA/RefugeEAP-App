@@ -4,6 +4,8 @@
   /* Blog Submission Page colour scheme */
   --blog-yellow-1: hsl(45, 100%, 55%);
   --blog-purple-1: hsl(330, 69%, 41%);
+  --blog-green-1: hsl(166, 51%, 46%);
+  --blog-white-1: hsl(50, 53%, 91%);
 
   /* font */
   --blog-title-1: "Anton", sans-serif;
@@ -35,7 +37,7 @@ p {
 /* Blog sumbission page */
 /* Submission Page Hero Banner */
 .form-hero {
-  background: var(--blog-yellow-1);
+  background: var(--blog-white-1);
   min-width: 100vw;
   min-height: 40vh;
   align-items: center;
@@ -49,7 +51,7 @@ p {
 }
 
 .form-title h1 {
-  color: var(--blog-purple-1);
+  color: var(--blog-green-1);
   font-family: var(--blog-title-1);
   font-size: 4rem;
 }
