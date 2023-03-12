@@ -1,10 +1,29 @@
-import "./Reusecont.css";
+import { useEffect, useState } from "react";
 
 //function clickMe(){
 //alert('You clicked me')
 //}
 
-function Reusecont() {
+export default function Reusecont() {
+
+  const [data, setData] = useState([])
+  async function getData() {
+    try {
+      console.log("getData is running")
+      const response = await fetch("http://127.0.0.1:8000/admin/reuseBank/donation/");
+      console.log(response)
+      setData(response)
+    }
+    catch (error) {
+      console.error(error)
+    }
+  }
+
+  console.log(data)
+
+  useEffect(() => {
+    getData();
+  }, [])
   return (
     <>
       <div className="row-1">
@@ -127,5 +146,3 @@ function Reusecont() {
     </>
   );
 }
-
-export default Reusecont;

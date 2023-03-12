@@ -1,10 +1,9 @@
 import React from "react";
 import "./Reuse.css";
-import './Reusecont';
-import Reusecont from "./Reusecont";
+import Reusecont from "../components/Reusecont"
 
-function Reuse() {
+export default function Reuse() {
   return <Reusecont />;
 }
 
-export default Reuse;
+
