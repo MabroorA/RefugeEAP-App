@@ -1,20 +1,13 @@
-from django.views import View
 from django.shortcuts import render
 from django.views import generic 
-from .models import Post
-
-def PostList(request,slug):
-    post = Post.objects.get(slug=slug)
-    context = {
-        'post': post,
-    }
-    return render(request, 'temp.html', context)
+from blog.models import Blog
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
 
 
-class PostList(generic.ListView):
-    queryset = Post.objects.filter(status=1).order_by('-published_date')
-    template_name = 'index.html'
+@api_view(['GET'])
+def ReactBlogView(request):
+    objects = Blog.objects.all()
+    data = [{'title': obj.title, 'subtitle': obj.subtitle, 'body': obj.body, 'slug': obj.slug, 'author': obj.author, 'published_date': obj.published_date,  'last_updated': obj.last_updated} for obj in objects]
+    return Response({'data': data})
 
-class PostDetail(generic.DetailView):
-    model = Post
-    template_name = 'post.html'
