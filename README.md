@@ -9,7 +9,7 @@ $ pip install djangorestframework
 $ pip install django-extensions
 ```
 
-## Connecnt to the localhost / Run the project
+## Connect to the localhost / Run the project
 
 ```
 (frontend) $ npm run build 
