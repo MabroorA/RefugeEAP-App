@@ -1,6 +1,13 @@
+#page{
+    width: 80%;
+    margin: auto;
+}
+
 #title{
     text-align: center;
     padding: 4%;
+    background-color: #16af46;
+    color: white;
 }
 
 #interest{
@@ -17,12 +24,6 @@
     text-align: center;
     padding: 4%;
 }
-
-#inquiry{
-    margin-left:20%;
-    padding: 4%;
-}
-
 
 #UniMailList{
     text-align: center;
@@ -42,5 +43,28 @@
 
 .link{
     text-decoration: none;
+    color:white;
 }
 
+#enquireIn{
+    padding-bottom: 10%;
+    padding-right: 15%;
+}
+
+.mainButton{
+    margin: auto;
+    margin-top: 3%;
+    display: block;
+    padding: 2%;
+    background-color: #007e28;
+    color:rgb(255, 255, 255);
+    font-weight: 400;
+    transition: all 0.3s linear;
+    border-style: none;
+    margin-bottom: 5%;
+}
+
+.mainButton:hover{
+    background-color: hsl(123, 44%, 68%);
+    color:black;
+}
