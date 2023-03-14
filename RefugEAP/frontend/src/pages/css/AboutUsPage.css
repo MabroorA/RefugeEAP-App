@@ -10,7 +10,9 @@ min-height: 0vh;
 }
 .content-section h1{
 	text-align: center;
-	margin-left: 265px;
+	color: black;
+	margin-left: 340px;
+	font-family:'Poppins';
 }
 .content-section h2{
 	text-align: center;
