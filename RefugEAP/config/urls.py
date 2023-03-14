@@ -28,5 +28,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/blog', include('blog.urls')),
     path('api/', include('pages.urls')),
-
-]
+    path('api/reuseBank', include('reuseBank.urls')),
+]   

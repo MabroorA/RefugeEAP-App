@@ -29,6 +29,7 @@ function App() {
       </Routes>
       <Footer />
     </React.Fragment>
+    
   );
 }
 
