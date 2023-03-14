@@ -35,7 +35,14 @@ function HomePage() {
         </div>
       </div>
       <div class="blogButton">
-        <button id="mainButton">BLOG PLACEHOLDER</button>
+      <a
+              class="blogPage"
+              href="/blog"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+        <button id="mainButton">BLOG</button>
+            </a>
       </div>
       <div class="twitter">
         <a class="twitter-timeline" href="https://twitter.com/RefugEAP?ref_src=twsrc%5Etfw" data-width="600" data-height="400" data-chrome="noscrollbar">Tweets by RefugEAP, note: will not load on local host but is functional once hosted </a>
