@@ -16,8 +16,8 @@ body {
   margin: 0;
 }
 
-h1,
-p {
+.blog-b h1,
+.blog-b p {
   color: rgb(131, 131, 130);
   font-size: 1.5rem;
   font-family: "Climate Crisis";
