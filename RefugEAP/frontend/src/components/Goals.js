@@ -5,18 +5,17 @@ import "./RefugEAP.css";
 const Goals = () => {
   return (
     <section className="section goals" id="goals">
-      <Title title="our" subtitle="goals" />
+      <Title title="support" subtitle="the programme" />
       <div className="section-center goals-center">
         <article className="goal">
           <span className="goal-icon">
             <i class="fas fa-lightbulb fa-fw"></i>
           </span>
           <div className="goal-info">
-            <h4 className="goal-title">Develop awareness </h4>
+            <h4 className="goal-title">volunteer tutor</h4>
             <p className="goal-text">
-              Develop awareness of the language required for studying in a UK
-              Higher Education context and the skills required for studying in a
-              UK Higher Education context
+              become a volunteer tutor on the programme (if you are able to
+              deliver a minimum of 1.5 - 3 hours per week of online classes)
             </p>
           </div>
         </article>
@@ -26,10 +25,11 @@ const Goals = () => {
             <i class="fas fa-book fa-fw"></i>
           </span>
           <div className="goal-info">
-            <h4 className="goal-title">Develop knowledge</h4>
+            <h4 className="goal-title">associate member organisation</h4>
             <p className="goal-text">
-              Develop knowledge of the United Nations Sustainable Development
-              Goals, as well as evaluating them through a critical lens
+              become an associate member organisation (referring students into
+              the scheme, and considering referrals for eligible RefugEAP
+              students onto your pre-sessional, IELTS or academic programmes)
             </p>
           </div>
         </article>
@@ -39,11 +39,10 @@ const Goals = () => {
             <i class="fas fa-user-graduate fa-fw"></i>
           </span>
           <div className="goal-info">
-            <h4 className="goal-title">Become better learners</h4>
+            <h4 className="goal-title">official partner organisation</h4>
             <p className="goal-text">
-              reflect on the effectiveness of learning strategies and
-              participate actively in the learning process, managing time and
-              work load
+              becoming an official partner organisation (contributing time or
+              resources to support the running of the scheme)
             </p>
           </div>
         </article>

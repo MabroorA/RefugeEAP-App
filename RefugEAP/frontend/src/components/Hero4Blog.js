@@ -13,7 +13,7 @@ const Hero4Blog = () => {
       }}
     >
       <div style={{paddingLeft: '3rem', paddingTop: '8rem'}}>
-        <h1 style={{margin: '2rem', fontSize: '5rem'}}>Blog</h1>
+        <h1 className="blog-b" style={{margin: '2rem', fontSize: '5rem'}}>Blog</h1>
         <Button variant="outline-secondary" size="lg" style={{margin :'2rem'}} href="#blogs">
           READ
         </Button>{}

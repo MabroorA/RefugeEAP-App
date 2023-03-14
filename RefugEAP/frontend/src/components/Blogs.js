@@ -28,9 +28,9 @@ const Blogs = () => {
 
   const prevPage = () => {
     setPage((oldPage) => {
-      let prevPage = oldPage + 1;
+      let prevPage = oldPage - 1;
       if (prevPage < 0) {
-        nextPage = data.length - 1;
+        prevPage = data.length - 1;
       }
       return prevPage;
     });
