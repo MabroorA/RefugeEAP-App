@@ -33,4 +33,10 @@ export const MenuItems = [
     cName: "nav-links",
     icon: "",
   },
+  {
+    title: "Submit a blog",
+    url: "/blog",
+    cName: "nav-links",
+    icon: "",
+  },
 ];
