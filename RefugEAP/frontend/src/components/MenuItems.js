@@ -22,6 +22,18 @@ export const MenuItems = [
     icon: "",
   },
   {
+    title: "Blog",
+    url: "/blog",
+    cName: "nav-links",
+    icon: "",
+  },
+  {
+    title: "Submit a blog",
+    url: "/form",
+    cName: "nav-links",
+    icon: "",
+  },
+  {
     title: "Contact Us",
     url: "/contactus",
     cName: "nav-links",
@@ -33,10 +45,5 @@ export const MenuItems = [
     cName: "nav-links",
     icon: "",
   },
-  {
-    title: "Submit a blog",
-    url: "/blog",
-    cName: "nav-links",
-    icon: "",
-  },
+
 ];
