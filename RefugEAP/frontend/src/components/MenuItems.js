@@ -10,7 +10,7 @@ export const MenuItems = [
     icon: "far fa-house-user",
   },
   {
-    title: "Reuse",
+    title: "ReuseBank",
     url: "/Reuse",
     cName: "nav-links",
     icon: "",
