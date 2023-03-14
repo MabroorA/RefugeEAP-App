@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
-from django.http import JsonResponse
 from pages.models import Event
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
@@ -18,7 +17,3 @@ def ReactEventView(request):
     objects = Event.objects.all()
     data = [{'name': obj.name, 'date': obj.date, 'time': obj.time, 'more':obj.more} for obj in objects]
     return Response({'data': data})
-
-# class YourModelViewSet(viewsets.ModelViewSet):
-#     queryset = Event.objects.all()
-#     serializer_class = YourModelSerializer

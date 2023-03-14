@@ -16,7 +16,7 @@ import BlogSubmission from "./pages/BlogSubmission";
 function App() {
   return (
     <React.Fragment>
-      {/* <Navbar /> */}
+      <Navbar/> 
       <Routes>
         <Route exact path="/" element={<HomePage />}></Route>
         <Route path="/Reuse" element={<Reuse/>}></Route>

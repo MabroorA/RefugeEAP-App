@@ -3,12 +3,13 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 const BlogCard = ({blog}) => {
-  const { id, title, info } = blog;
+  const { id, title, subtitle } = blog;
+  console.log(blog)
   return (
     <Card id={id} style={{ width: "100%", background: "hsl(34,49%,81%)" }}>
       <Card.Body style={{ margin: "2rem" }}>
         <Card.Title style={{ color: "rgb(131, 131, 130)" }}>{title}</Card.Title>
-        <Card.Text className="blog">{info}</Card.Text>
+        <Card.Text className="blog">{subtitle}</Card.Text>
         <Button variant="outline-dark">More</Button>
       </Card.Body>
     </Card>

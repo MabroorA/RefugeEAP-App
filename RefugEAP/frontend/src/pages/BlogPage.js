@@ -6,7 +6,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./BlogPage.css";
 import Button from "react-bootstrap/Button";
-import { blogs } from "../data";
 
 const BlogPage = () => {
   return (
@@ -86,7 +85,7 @@ const BlogPage = () => {
         >
           <h1 style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>Blog</h1>
         </div>
-        <Blogs props={blogs} style={{ display: "flex" }} />
+        <Blogs style={{ display: "flex" }} />
       </Row>
     </Container>
   );
