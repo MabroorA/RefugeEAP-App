@@ -4,7 +4,7 @@ ul {
 
 
 .NavbarItems{
-    position: fixed;
+    position: sticky;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -16,7 +16,7 @@ ul {
     width: 110%;
     height: 10%;
     border-radius: 1%;
-    top:0;
+    top:-1;
     z-index: 2;
 }
 
@@ -37,8 +37,7 @@ ul {
 }
 */
 .bar{
-    display:grid;
-    grid-template-columns: repeat(6, auto);
+    display:flex;
     grid-gap: 5%; 
     text-align: center;
     align-items: center;
