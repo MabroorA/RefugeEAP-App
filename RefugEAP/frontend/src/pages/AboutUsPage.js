@@ -9,10 +9,9 @@ const AboutUs = () => {
       <br/>
       <br/> 
       <div className='section'>
-      
       <div className='content-section'>
       <div className='title'>
-      <h1>About Us</h1>
+      <h1 style={{ textDecoration: "underline" }}>About Us</h1>
       </div>
       <div className='content'>
       <br/>
@@ -30,14 +29,16 @@ const AboutUs = () => {
         <li>To work together with relevant organisations, movements and initiatives in recognition of the complexity and intersectionality of social justice work.</li>
         <li>To facilitate the creation of a welcoming and active EAP for SJ community of practice, through which participants can support each other, share good practice and be inspired to take action within their sphere of influence.</li>
         </div>
+        <hr></hr>
       </ul>
       <h2>Our Rationale</h2>
-      <h3>A pragmatic view</h3>
+      <img src= "https://eap4socialjustice.files.wordpress.com/2021/05/cropped-menu-test.jpg" alt= "My Image" className="aboutus-image" />
+      
       <ul>
-        <div className='paragraphs2'>
-        <li>Indeed, pragmatists may argue that the role of the EAP practitioner is, and should continue to be, limited to the nuts and bolts of teaching, learning, curriculum design and assessment, and that involvement in wider ideological concerns is beyond our remit. Such a perspective is often reinforced by the current trends towards the marketisation and commodification of programmes of study within the HE sector, which tends to instrumentalise activities related to these, thereby promoting in some learners and teachers a narrowing in how they see themselves and their roles. When seen in the light of Fromm’s humanist philosophy, such instrumentalisation can be regarded in terms of a general shift from being to having; from being a learner (or an educator) to having (or giving) a qualification in order to increase a student’s employability prospects through socialising them into existing cultural norms (Molesworth, Nixon & Scullion, 2009). An unequivocal alignment with this stance would imply that one believes that social justice has little to do with either EAP or with the remit of HEIs more generally.
-</li>
-        <li>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</li>
+        <div>
+        <h3>A pragmatic view</h3>
+        <li>Indeed, pragmatists may argue that the role of the EAP practitioner is, and should continue to be, limited to the nuts and bolts of teaching, learning, curriculum design and assessment, and that involvement in wider ideological concerns is beyond our remit. Such a perspective is often reinforced by the current trends towards the marketisation and commodification of programmes of study within the HE sector, which tends to instrumentalise activities related to these, thereby promoting in some learners and teachers a narrowing in how they see themselves and their roles. When seen in the light of Fromm’s humanist philosophy, such instrumentalisation can be regarded in terms of a general shift from being to having; from being a learner (or an educator) to having (or giving) a qualification in order to increase a student’s employability prospects through socialising them into existing cultural norms (Molesworth, Nixon & Scullion, 2009). An unequivocal alignment with this stance would imply that one believes that social justice has little to do with either EAP or with the remit of HEIs more generally.</li>
+        <hr></hr>
         <h3>An alternative view</h3>
         <li>However, there is a small but growing movement against this normative stance, stemming from the work of Freire (1970: foreword), who stated:
             There is no such thing as a neutral education process. Education either functions as an instrument which is used to facilitate the   
@@ -60,3 +61,4 @@ const AboutUs = () => {
 
 
 export default AboutUs;
+

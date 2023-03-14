@@ -10,11 +10,16 @@ min-height: 0vh;
 }
 .content-section h1{
 	text-align: center;
-	margin-left: 265px;
+	color: #89CFF0;
+	margin-left: 340px;
+	font-family:'Poppins';
+	font-weight: bold;
+	font-size: 60px;
 }
 .content-section h2{
 	text-align: center;
 	font-family: 'Poppins';
+	color: rgb(0, 0, 0);
 }
 .content-section{
 	float:centre;
@@ -24,6 +29,7 @@ min-height: 0vh;
 
 .content-section h3{
 	font-family: 'Poppins';
+	color: rgb(0, 0, 0);
 
 }
 .content-section .title{
@@ -31,12 +37,26 @@ min-height: 0vh;
 	font-size:28px;
 	text-align:center;
 	font-family: 'Poppins'
+	
 }
-.content-section .content li{
+.content-section .content li {
 	margin-top:10px;
 	font-family:sans-serif;
 	font-size:18px;
 	line-height:1.25;
-	font-family: 'Poppins'
+	font-family: 'Poppins';
+
 }
 
+
+.aboutus-image {
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+  
+  }
+  body {
+	background: linear-gradient(to bottom, #ffffff, #cfcfd0);
+  }
+  
