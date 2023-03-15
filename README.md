@@ -2,6 +2,7 @@
 
 ### Packages to install
 ```
+$ npm i react-router-dom
 $ npm install react-bootstrap bootstrap 
 $ npm i react-custom-scrollbars
 $ npm install react-calendar
