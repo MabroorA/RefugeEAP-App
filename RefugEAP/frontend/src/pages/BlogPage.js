@@ -6,8 +6,16 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./BlogPage.css";
 import Button from "react-bootstrap/Button";
+import { useNavigate } from "react-router-dom";
 
 const BlogPage = () => {
+
+  const navigate = useNavigate();
+  
+  const handleClick = () => {
+    navigate("/form");
+  };
+  
   return (
     <Container className="blog-main" fluid style={{ padding: 0 }}>
       <Row
@@ -56,8 +64,12 @@ const BlogPage = () => {
               contribute a post please provide further details by clicking the
               button below.
             </p>
-            <Button variant="outline-light" size="lg">
+            <Button variant="outline-light" size="lg" onClick={handleClick}>
+        
+
               CONTRIBUTE
+            
+          
             </Button>{" "}
           </div>
         </Col>
