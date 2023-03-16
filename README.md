@@ -2,6 +2,7 @@
 
 ### Packages to install
 ```
+$ npm i validator
 $ npm i react-icons
 $ npm i react-router-dom
 $ npm install react-bootstrap bootstrap 
@@ -11,7 +12,7 @@ $ pip install djangorestframework
 $ pip install django-extensions
 ```
 
-## Connect to the localhost / Run the project
+## Connect to the localhost / Run the project on Django
 
 ```
 (frontend) $ npm run build 
