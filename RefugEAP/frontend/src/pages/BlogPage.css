@@ -152,8 +152,8 @@ form {
 }
 
 form {
-  width: 90%;
-  max-width: 600px;
+  width: 100%;
+  max-width: 60vw;
   margin: auto;
   background-color: #fff;
   border-radius: 5px;
@@ -168,7 +168,7 @@ form {
 .form-group input[type="text"],
 .form-group input[type="email"],
 .form-group textarea {
-  border-radius: 3px;
+  border-radius: 5px;
   border: 1px solid #ccc;
   padding: 8px;
   width: 100%;
