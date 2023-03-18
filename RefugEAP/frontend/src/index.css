@@ -43,6 +43,39 @@ Variables
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
   --fixed-width: 620px;
+
+  /* New Colour scheme */
+  /* Melon */
+  --clr-melon-1: hsl(17,50%,72%);
+  --clr-melon-2: hsl(18,50%,76%);
+  --clr-melon-3: hsl(18,50%,80%);
+  /* Cambridge blue */
+  --clr-green--1: hsl(127,25%,60%);
+  --clr-green--2: hsl(127,25%,64%);
+  --clr-green--3: hsl(127,25%,68%);
+  /* taupe */
+  --clr-taupe--1: hsl(339,15%,41%);
+  --clr-taupe--2: hsl(339,15%,45%);
+  --clr-taupe--3: hsl(339,15%,49%);
+  /* air superiority blue */
+  --clr-blue--1: hsl(207, 43%, 60%);
+  --clr-blue--2: hsl(207, 43%, 64%);
+  --clr-blue--3: hsl(207, 43%, 68%);
+  /* umber */
+  --clr-umber--1: hsl(22,19%,36%);
+  --clr-umber--1: hsl(22,19%,40%);
+  --clr-umber--1: hsl(22,19%,44%);
+
+  /* font */
+  --fnt-popping-regular-400: 'Poppins', sans-serif;
+  --blog-title-1: "Anton", sans-serif;
+
+  /* Blog Main Page colour */
+  /* Blog Submission Page colour scheme */
+  --blog-yellow-1: hsl(45, 100%, 55%);
+  --blog-purple-1: hsl(330, 69%, 41%);
+  --blog-green-1: hsl(166, 51%, 46%);
+  --blog-white-1: hsl(50, 53%, 91%);
 }
 /*
 =============== 
@@ -58,10 +91,9 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font:var(--fnt-popping-regular-400);
   background: var(--clr-grey-10);
-  color: var(--clr-grey-1);
+  color: var(--clr-grey-10);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -79,9 +111,10 @@ h4 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
+  color: var(--clr-grey-10)
 }
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 h2 {
   font-size: 2rem;
@@ -94,13 +127,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
-}
-
-html,
-body {
-  margin: 0;
-  min-width: 100vw;
+  color: var(--clr-grey-10);
 }
 
 ul {
@@ -109,3 +136,44 @@ ul {
 a {
   text-decoration: none;
 }
+
+.btn-eap {
+  text-transform: uppercase;
+  color: var(--clr-white);
+  padding: 0.375rem 0.75rem;
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  transition: var(--transition);
+  font-size: 0.875rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+/* 
+.section {
+  padding: 5rem 0;
+  scroll-margin-top: 4rem;
+  min-width: 100vw;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.section-title h2 {
+  text-transform: uppercase;
+}
+.section-title span {
+  color: var(--clr-primary-5);
+}
+.section-center {
+  width: 100vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
+} */

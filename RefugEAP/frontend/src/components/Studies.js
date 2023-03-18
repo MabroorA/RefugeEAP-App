@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "./Title";
 import { studies } from "../data";
-import "./RefugEAP.css";
+import "./EAPPage.css";
 
 const Studies = () => {
   return (

@@ -1,22 +1,17 @@
-import './css/Home.css';
-import React from 'react';
+import "./css/Home.css";
+import React from "react";
 // import logo from './logo.jpg'
-import EventCalendar from '../components/EventCalendar'
+import EventCalendar from "../components/EventCalendar";
+import Hero from "../components/Hero";
+import { hero } from "../homeData";
+import refugeap from "../images/RefugEAP.jpg";
+
 
 function HomePage() {
   return (
     <>
+      <Hero props={hero} img={refugeap}/>
       <div class="page">
-        <div class="logo">{/* <img src={logo} alt="logo"></img> */}</div>
-        <div class="keyInfo">
-          <div class="title">RefugEAP</div>
-          <div class="desc">
-            EAP for Social Justice is one of the special interest groups of
-            BALEAP, which is the global forum for English for Academic Purposes
-            professionals. Our focus is on promoting social justice focused
-            awareness, research and practice in the field of EAP.
-          </div>
-        </div>
         <div class="program">
           <div class="progR">
             <div class="programInfoTitle">The RefugEAP program</div>
@@ -35,17 +30,26 @@ function HomePage() {
         </div>
       </div>
       <div class="blogButton">
-      <a
-              class="blogPage"
-              href="/blog"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-        <button id="mainButton">BLOG</button>
-            </a>
+        <a
+          class="blogPage"
+          href="/blog"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button id="mainButton">BLOG</button>
+        </a>
       </div>
       <div class="twitter">
-        <a class="twitter-timeline" href="https://twitter.com/RefugEAP?ref_src=twsrc%5Etfw" data-width="600" data-height="400" data-chrome="noscrollbar">Tweets by RefugEAP, note: will not load on local host but is functional once hosted </a>
+        <a
+          class="twitter-timeline"
+          href="https://twitter.com/RefugEAP?ref_src=twsrc%5Etfw"
+          data-width="600"
+          data-height="400"
+          data-chrome="noscrollbar"
+        >
+          Tweets by RefugEAP, note: will not load on local host but is
+          functional once hosted{" "}
+        </a>
       </div>
       <div>
         <div>
@@ -63,10 +67,9 @@ function HomePage() {
           </a>
         </div>
       </div>
-      <EventCalendar/>
+      <EventCalendar />
     </>
   );
 }
-
 
 export default HomePage;

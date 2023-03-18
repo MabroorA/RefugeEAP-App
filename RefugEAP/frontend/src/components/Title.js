@@ -1,5 +1,5 @@
 import React from "react";
-import "./RefugEAP.css"
+import "./EAPPage.css";
 
 const Title = ({ title, subtitle }) => {
   return (

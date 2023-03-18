@@ -1,20 +1,3 @@
-:root {
-  /* Blog Main Page colour */
-
-  /* Blog Submission Page colour scheme */
-  --blog-yellow-1: hsl(45, 100%, 55%);
-  --blog-purple-1: hsl(330, 69%, 41%);
-  --blog-green-1: hsl(166, 51%, 46%);
-  --blog-white-1: hsl(50, 53%, 91%);
-
-  /* font */
-  --blog-title-1: "Anton", sans-serif;
-}
-
-html,
-body {
-  margin: 0;
-}
 
 .blog-b h1,
 .blog-b p {

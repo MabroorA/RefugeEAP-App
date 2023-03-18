@@ -1,0 +1,29 @@
+.hero {
+  padding: 5rem 0;
+  scroll-margin-top: 4rem;
+  background: var(--clr-umber--1);
+  min-height: 80vh;
+  margin: 0;
+}
+
+.hero h1 {
+  font-size: 4.5rem;
+}
+
+.hero h3 {
+  font-size: 1rem;
+}
+
+.hero-center {
+  display: flex;
+  flex-direction: column-reverse;
+  column-gap: 2rem;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 800px) {
+  .hero-center {
+    flex-direction: row;
+    margin: 5rem 10rem;
+  }
+}

@@ -9,7 +9,7 @@ import getDay from "date-fns/getDay";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import DatePicker from "react-datepicker";
 /* import {events} from '../data'; */
-import "./RefugEAP.css";
+import "./EAPPage.css";
 
 const locales = {
   "en-GB": require("date-fns/locale/en-GB"),

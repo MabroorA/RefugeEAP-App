@@ -13,9 +13,6 @@
   font-size: 36px;
 }
 
-body {
-  background-color: rgb(6, 0, 0);
-}
 
 .top-half {
   height: 20vh; /* set the height to half of the viewport height */
@@ -62,18 +59,4 @@ body {
   max-width: 1000px;
   margin-top: 30px;
   margin-bottom: 30px;
-}
-
-h1 {
-  font-size: 40px; 
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom: 10px;
-  color: rgb(0, 0, 0);
-}
-
-p {
-  font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom: 10px;
-  color: #000000;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import about3 from "../images/about3.jpg";
 import Title from "./Title";
-import "./RefugEAP.css";
+import "./EAPPage.css";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
 
       <div class="section-center about-center">
         <div class="about-img">
-          <img src={about3} class="about-photo" alt="people talking" />
+          <img src={about3} className="about-photo" alt="people talking" />
         </div>
         <article class="about-info">
           <h3>the RefugEAP Programme</h3>

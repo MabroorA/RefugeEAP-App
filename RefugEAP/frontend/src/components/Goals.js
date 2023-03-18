@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "./Title";
-import "./RefugEAP.css";
+import "./EAPPage.css";
 
 const Goals = () => {
   return (
