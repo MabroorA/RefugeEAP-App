@@ -2,6 +2,8 @@
 
 ### Packages to install
 ```
+$ npm i normalize.css
+$ npm i styled-components
 $ npm i validator
 $ npm i react-icons
 $ npm i react-router-dom
