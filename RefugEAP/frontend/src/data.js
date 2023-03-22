@@ -74,3 +74,22 @@ export const MenuItems = [
     id: 6,
   },
 ];
+
+export const aims = [
+  {
+    id: 1,
+    text: "To put social justice on the agenda in EAP discussions concerning learning, teaching, scholarship of teaching and learning, research and operational matters, in part through widening the parameters of the field.",
+  },
+  {
+    id: 2,
+    text: "To demonstrate the value of adopting a social justice lens in EAP, by broadening and strengthening the evidence base of the impact that this can make in our field.",
+  },
+  {
+    id: 3,
+    text: "To work together with relevant organisations, movements and initiatives in recognition of the complexity and intersectionality of social justice work.",
+  },
+  {
+    id: 4,
+    text: "To facilitate the creation of a welcoming and active EAP for SJ community of practice, through which participants can support each other, share good practice and be inspired to take action within their sphere of influence.",
+  },
+];

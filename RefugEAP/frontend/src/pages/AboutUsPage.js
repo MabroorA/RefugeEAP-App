@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/AboutUsPage.css";
 import Hero from "../components/Hero";
+import Slider from "../components/Slider";
 
 const AboutUs = () => {
   return (
@@ -15,45 +16,9 @@ const AboutUs = () => {
         }}
         img=""
       />
-
+      <Slider/>
       <div className="section">
         <div className="content-section">
-          <div className="content">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <h2>Our Aims</h2>
-          </div>
-          <ul>
-            <div id="paragraph">
-              <li>
-                To put social justice on the agenda in EAP discussions
-                concerning learning, teaching, scholarship of teaching and
-                learning, research and operational matters, in part through
-                widening the parameters of the field.
-              </li>
-              <li>
-                To demonstrate the value of adopting a social justice lens in
-                EAP, by broadening and strengthening the evidence base of the
-                impact that this can make in our field.
-              </li>
-              <li>
-                To work together with relevant organisations, movements and
-                initiatives in recognition of the complexity and
-                intersectionality of social justice work.
-              </li>
-              <li>
-                To facilitate the creation of a welcoming and active EAP for SJ
-                community of practice, through which participants can support
-                each other, share good practice and be inspired to take action
-                within their sphere of influence.
-              </li>
-            </div>
-            <hr></hr>
-          </ul>
           <h2>Our Rationale</h2>
           <img
             src="https://eap4socialjustice.files.wordpress.com/2021/05/cropped-menu-test.jpg"
