@@ -56,16 +56,28 @@ function HomePage() {
           </a>
         </div>
       </div>
-      <div class="twitter">
+      <div class="RefugEAP-Timeline">
         <a
           class="twitter-timeline"
           href="https://twitter.com/RefugEAP?ref_src=twsrc%5Etfw"
           data-width="600"
           data-height="400"
-          data-chrome="noscrollbar"
+          data-chrome="noscrollbar noheader nofooter"
+          data-tweet-limit="1"
         >
-          Tweets by RefugEAP, note: will not load on local host but is
-          functional once hosted{" "}
+          Tweets by RefugEAP{" "}
+        </a>
+      </div>
+      <div class="BalEAP-Timeline">
+        <a
+          class="twitter-timeline"
+          href="https://twitter.com/baleap?ref_src=twsrc%5Etfw"
+          data-width="600"
+          data-height="400"
+          data-chrome="noscrollbar noheader nofooter"
+          data-tweet-limit="1"
+        >
+          Tweets by BalEAP{" "}
         </a>
       </div>
       <EventCalendar />
