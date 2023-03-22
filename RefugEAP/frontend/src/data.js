@@ -42,11 +42,7 @@ export const MenuItems = [
     url: "/",
     id: 1,
   },
-  {
-    title: "ReuseBank",
-    url: "/Reuse",
-    id: 2,
-  },
+
   {
     title: "About us",
     url: "/about",
@@ -63,13 +59,18 @@ export const MenuItems = [
     id: 5,
   },
   {
-    title: "Contact Us",
-    url: "/contactus",
-    id: 6,
-  },
-  {
     title: "RefugEAP",
     url: "/refugeap",
     id: 7,
+  },
+  {
+    title: "ReuseBank",
+    url: "/Reuse",
+    id: 2,
+  },
+  {
+    title: "Contact Us",
+    url: "/contactus",
+    id: 6,
   },
 ];

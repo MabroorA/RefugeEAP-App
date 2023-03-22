@@ -21,6 +21,8 @@ const Reuse = () => {
     subtitle:
       "This is the resuse bank for refugee background students...",
     btn: "START",
+    url: '/',
+    style: 'reuse-hero',
   };
   
   return (

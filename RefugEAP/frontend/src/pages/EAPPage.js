@@ -7,7 +7,7 @@ import Studies from "../components/Studies";
 const EAPPage = () => {
   return (
     <>
-      <Hero />
+      <Hero props="" img=""/>
       <About />
       <Goals />
       <Studies />

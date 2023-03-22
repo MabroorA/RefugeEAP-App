@@ -5,7 +5,17 @@ import Hero from "../components/Hero";
 const AboutUs = () => {
   return (
     <>
-      <Hero props="" img="" />
+      <Hero
+        props={{
+          title: "About Us",
+          subtitle: "this is...",
+          btn: "Read More",
+          url: "#paragraph",
+          style: 'about-hero'
+        }}
+        img=""
+      />
+
       <div className="section">
         <div className="content-section">
           <div className="content">

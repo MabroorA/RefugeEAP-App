@@ -1,7 +1,7 @@
 import { Scrollbars } from "react-custom-scrollbars";
 import React, { useState, useEffect } from "react";
-// import Calendar from "react-calendar";
-import Calendar2 from "./Calendar";
+import Calendar from "react-calendar";
+// import Calendar2 from "./Calendar";
 import "react-calendar/dist/Calendar.css";
 import "./EAPPage.css";
 
@@ -49,8 +49,8 @@ useEffect(() => {
       </div>
       <div className="section-center event-center">
         <div className="event-calendar">
-          {/* <Calendar onChange={onChange} value={value} className="event-table" /> */}
-          <Calendar2/>
+          <Calendar onChange={onChange} value={value} className="event-table" />
+          {/* <Calendar2/> */}
         </div>
         <div className="event-events">
           <Scrollbars className="event-scroll">

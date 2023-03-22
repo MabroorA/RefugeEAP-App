@@ -63,14 +63,15 @@ Variables
   --clr-blue--3: hsl(207, 43%, 68%);
   /* umber */
   --clr-umber--1: hsl(22,19%,36%);
-  --clr-umber--1: hsl(22,19%,40%);
-  --clr-umber--1: hsl(22,19%,44%);
+  --clr-umber--2: hsl(22,19%,40%);
+  --clr-umber--3: hsl(22,19%,44%);
 
   /* font */
   --fnt-popping-regular-400: 'Poppins', sans-serif;
   --blog-title-1: "Anton", sans-serif;
 
   /* Blog Main Page colour */
+  --blog-banner-pink-1 :hsl(16,50%,72%);
   /* Blog Submission Page colour scheme */
   --blog-yellow-1: hsl(45, 100%, 55%);
   --blog-purple-1: hsl(330, 69%, 41%);
@@ -151,7 +152,7 @@ a {
 }
 
 
-/* 
+
 .section {
   padding: 5rem 0;
   scroll-margin-top: 4rem;
@@ -176,4 +177,4 @@ a {
   .section-center {
     width: 95vw;
   }
-} */
+}

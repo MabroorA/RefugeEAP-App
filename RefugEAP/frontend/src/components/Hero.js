@@ -3,16 +3,16 @@ import "./Hero.css";
 
 
 const Hero = ({props, img}) => {
-  const {title, subtitle, btn} = props
+  const {title, subtitle, btn, url, style} = props
   return (
-    <section className="hero">
+    <section className={style}>
       <div className="hero-center">
         <div className="hero-info">
           <h1>{title}</h1>
           <h3>
             {subtitle}
           </h3>
-          <a href="#studies" className="btn-eap hero-btn">
+          <a href={url} className="btn-eap hero-btn">
             {btn}
           </a>
         </div>
