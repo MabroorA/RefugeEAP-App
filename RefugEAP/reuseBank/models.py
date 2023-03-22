@@ -8,3 +8,9 @@ class Donation(models.Model):
 
     def _str_(self):
         return self.title
+
+# d = Donation()
+# d.title = 'book'
+# d.description = 'Harry Potter'
+# d.Created = ''
+# d.save()
