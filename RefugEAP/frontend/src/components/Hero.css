@@ -2,6 +2,7 @@
 .about-hero,
 .contact-hero,
 .reuse-hero,
+.Guidelines-hero,
 .blog-hero {
   padding: 5rem 0;
   scroll-margin-top: 4rem;
@@ -18,6 +19,11 @@
   background: var(--clr-green--2);
 }
 
+.Guidelines-hero {
+  background: rgb(148, 77, 148); 
+}
+
+
 .contact-hero{
   background: var(--clr-blue--2);
 }
@@ -29,6 +35,7 @@
 .hero h1,
 .about-hero h1,
 .contact-hero h1,
+.Guidelines-hero h1,
 .reuse-hero h1,
 .blog-hero h1{
   font-size: 4.5rem;
@@ -38,6 +45,7 @@
 .hero h3,
 .about-hero h3,
 .contact-hero h3,
+.Guidelines-hero h3,
 .reuse-hero h3,
 .blog-hero h3 {
   font-size: 1rem;

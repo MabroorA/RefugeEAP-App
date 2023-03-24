@@ -61,17 +61,22 @@ export const MenuItems = [
   {
     title: "RefugEAP",
     url: "/refugeap",
-    id: 7,
+    id: 6,
   },
   {
     title: "ReuseBank",
     url: "/Reuse",
-    id: 2,
+    id: 7,
   },
   {
     title: "Contact Us",
     url: "/contactus",
-    id: 6,
+    id: 8,
+  },
+  {
+    title: "Guidelines",
+    url: "/Guidelines",
+    id: 9,
   },
 ];
 

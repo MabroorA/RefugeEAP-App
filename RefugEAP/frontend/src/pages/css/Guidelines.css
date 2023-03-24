@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.App {
+  text-align: center;
+  padding: 30px;
+}
+
+.header {
+  color: rgb(0, 0, 0);
+  background-color: hsl(30, 100%, 0%);
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+
+.top-half {
+  height: 20vh; /* set the height to half of the viewport height */
+  background-color: hsl(224, 55%, 28%);
+  margin-bottom: 30px;
+}
+
+ 
+.contact-image {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.App img {
+  width: 100%;
+  height: auto;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.guidelines-list-container {
+  max-height: 200px; /* Set the desired maximum height */
+  overflow-y: scroll;
+ 
+}
+.guidelines-list li {
+  font-size: 25px; /* Adjust the font size as desired */
+}

@@ -6,11 +6,13 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import EAPPage from "./pages/EAPPage";
+import Guidelines from "./pages/Guidelines";
 import Reuse from "./pages/Reuse";
 import ContactUs from "./pages/ContactUs";
 import BlogPage from "./pages/BlogPage";
 import JoinUs from "./pages/JoinUs";
 import BlogSubmission from "./pages/BlogSubmission";
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
         <Route path="join" element={<JoinUs />} />
         <Route path="contactus" element={<ContactUs />} />
         <Route path="Reuse" element={<Reuse />} />
+        <Route path="Guidelines" element={<Guidelines />} />
         <Route path="blog" element={<BlogPage />} />
         <Route path="form" element={<BlogSubmission />} />
       </Routes>
