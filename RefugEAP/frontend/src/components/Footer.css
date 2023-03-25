@@ -18,3 +18,9 @@ Footer
 .copyright span {
   margin-left: 0.5rem;
 }
+.link-grid
+{
+   display:grid;
+   grid-template-columns: auto auto auto; 
+   
+}
