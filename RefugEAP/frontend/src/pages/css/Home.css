@@ -71,25 +71,6 @@
     scale: 50%;
 }
 
-
-#mainButton{
-    margin: auto;
-    margin-top: 3%;
-    display: block;
-    padding: 10px;
-    background-color: #e50d0d;
-    color:rgb(255, 255, 255);
-    font-weight: 400;
-    transition: all 0.3s linear;
-    border-style: none;
-    margin-bottom: 5%;
-}
-
-#mainButton:hover{
-    background-color: #ffa7a7;
-    color:black;
-}
-
 .currentEvents{
     font-weight: 600;
 }

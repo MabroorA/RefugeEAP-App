@@ -98,3 +98,24 @@ export const aims = [
     text: "To facilitate the creation of a welcoming and active EAP for SJ community of practice, through which participants can support each other, share good practice and be inspired to take action within their sphere of influence.",
   },
 ];
+
+export const JoinUsList = [
+  {
+    title: "Join as a member",
+    pic: "pic.png",
+    desc: "If you are keen to get involved as an active member of the RefugEAP Network Working Group (e.g. working to help us build content for the website) or perhaps a volunteer tutor on the RefugEAP Programme, you can fill in this online expression of interest form",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfy_N8cqvLV2FGPrfWBXR-W64asV0yz4AqdHwDTCiOmH93P7Q/viewform" 
+  },
+  {
+    title: "Join our mailing list",
+    pic: "pic.png",
+    desc: "Join the RefugEAP Network by subscribing to our JISCmail discussion list. This functions as a mutual support network for individuals and organisations involved and/or interested in developing widening participation initiatives for refugee-background students to facilitate access to HE via English language pathways, with a particular focus on English for Academic Purposes. It will also be a place where you can keep up to date with what’s happening in the Working Group and on the RefugEAP Programme (which will sometimes put out a call for more volunteer tutors via this JISCmail list)",
+    link: "https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SJ-SIG-BALEAP"
+  },
+  {
+    title: "Join our wider",
+    pic: "pic.png",
+    desc: "Other similar networks which are not EAP-specific but which are very useful for those working in EAP/HE contexts are the Universities of Sanctuary JISCmail discussion list, and the Hub for European Refugee Education mailing list",
+    link: "https://jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=SANCTUARY&A=1"
+  }
+];
