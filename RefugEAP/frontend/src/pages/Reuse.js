@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Reuse.css";
 import Hero from "../components/Hero";
-
+import { format} from 'date-fns'
 const Reuse = () => {
   let [items, setitems] = useState([]);
 
@@ -43,7 +43,7 @@ const Reuse = () => {
                   <h6>Description</h6>
                   <p>{item.description}</p>
                   <h6>Created: </h6>
-                  <p>{item.Created.date}</p>
+                  <p>{item.Created}</p>
                   
                 </div>
               );
