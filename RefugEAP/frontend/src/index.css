@@ -46,33 +46,33 @@ Variables
 
   /* New Colour scheme */
   /* Melon */
-  --clr-melon-1: hsl(17,50%,72%);
-  --clr-melon-2: hsl(18,50%,76%);
-  --clr-melon-3: hsl(18,50%,80%);
+  --clr-melon-1: hsl(17, 50%, 72%);
+  --clr-melon-2: hsl(18, 50%, 76%);
+  --clr-melon-3: hsl(18, 50%, 80%);
   /* Cambridge blue */
-  --clr-green--1: hsl(127,25%,60%);
-  --clr-green--2: hsl(127,25%,64%);
-  --clr-green--3: hsl(127,25%,68%);
+  --clr-green--1: hsl(127, 25%, 60%);
+  --clr-green--2: hsl(127, 25%, 64%);
+  --clr-green--3: hsl(127, 25%, 68%);
   /* taupe */
-  --clr-taupe--1: hsl(339,15%,41%);
-  --clr-taupe--2: hsl(339,15%,45%);
-  --clr-taupe--3: hsl(339,15%,49%);
+  --clr-taupe--1: hsl(339, 15%, 41%);
+  --clr-taupe--2: hsl(339, 15%, 45%);
+  --clr-taupe--3: hsl(339, 15%, 49%);
   /* air superiority blue */
   --clr-blue--1: hsl(207, 43%, 60%);
   --clr-blue--2: hsl(207, 43%, 64%);
   --clr-blue--3: hsl(207, 43%, 68%);
   /* umber */
-  --clr-umber--1: hsl(22,19%,36%);
-  --clr-umber--2: hsl(22,19%,40%);
-  --clr-umber--3: hsl(22,19%,44%);
-  --clr-umber--9: hsl(22,19%, 56%);
+  --clr-umber--1: hsl(22, 19%, 36%);
+  --clr-umber--2: hsl(22, 19%, 40%);
+  --clr-umber--3: hsl(22, 19%, 44%);
+  --clr-umber--9: hsl(22, 19%, 56%);
 
   /* font */
-  --fnt-popping-regular-400: 'Poppins', sans-serif;
+  --fnt-popping-regular-400: "Poppins", sans-serif;
   --blog-title-1: "Anton", sans-serif;
 
   /* Blog Main Page colour */
-  --blog-banner-pink-1 :hsl(16,50%,72%);
+  --blog-banner-pink-1: hsl(16, 50%, 72%);
   /* Blog Submission Page colour scheme */
   --blog-yellow-1: hsl(45, 100%, 55%);
   --blog-purple-1: hsl(330, 69%, 41%);
@@ -93,7 +93,7 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font:var(--fnt-popping-regular-400);
+  font: var(--fnt-popping-regular-400);
   background: var(--clr-grey-10);
   color: var(--clr-grey-10);
   line-height: 1.5;
@@ -113,7 +113,7 @@ h4 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
-  color: var(--clr-grey-10)
+  color: var(--clr-black);
 }
 h1 {
   font-size: 5rem;
@@ -151,8 +151,6 @@ a {
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
-
-
 
 .section {
   padding: 5rem 0;

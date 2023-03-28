@@ -11,7 +11,7 @@
   margin: 0;
 }
 
-.blog-hero{
+.blog-hero {
   background: var(--blog-banner-pink-1);
 }
 
@@ -20,11 +20,10 @@
 }
 
 .Guidelines-hero {
-  background: rgb(148, 77, 148); 
+  background: rgb(148, 77, 148);
 }
 
-
-.contact-hero{
+.contact-hero {
   background: var(--clr-blue--2);
 }
 
@@ -37,9 +36,10 @@
 .contact-hero h1,
 .Guidelines-hero h1,
 .reuse-hero h1,
-.blog-hero h1{
+.blog-hero h1 {
   font-size: 4.5rem;
   margin-bottom: 2rem;
+  color: var(--clr-grey-10);
 }
 
 .hero h3,
@@ -50,6 +50,7 @@
 .blog-hero h3 {
   font-size: 1rem;
   margin-bottom: 2rem;
+  color: var(--clr-grey-10);
 }
 
 .hero-center {
@@ -67,4 +68,3 @@
     margin: 5rem 10rem;
   }
 }
-
