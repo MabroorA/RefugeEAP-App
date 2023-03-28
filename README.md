@@ -13,6 +13,7 @@ $ npm i react-custom-scrollbars
 $ npm install react-calendar
 $ pip install djangorestframework
 $ pip install django-extensions
+$ pip install django-cors-headers
 ```
 
 ## Connect to the localhost / Run the project on Django
