@@ -22,6 +22,8 @@ const Hero = ({props, img}) => {
       </div>
     </section>
   );
+
+  
 };
 
 export default Hero;
