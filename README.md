@@ -1,7 +1,7 @@
 # RefugEAP Network
 
 ### Packages to install
-```
+$ npm install date-fns --save
 $ npm i normalize.css
 $ npm i styled-components
 $ npm i validator
