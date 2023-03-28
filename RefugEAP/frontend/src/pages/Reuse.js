@@ -28,8 +28,8 @@ const Reuse = () => {
   return (
     <>
       <Hero props={reuseHero} img=""/>
-      <div className="body">
-        <div className="items">
+      <div className="container">
+        <div className="items ">
           <div className="items-header">
             <h2 className="items-title">&#9782; Items</h2>
             <p className="items-count">{items.length}</p>
@@ -40,8 +40,11 @@ const Reuse = () => {
               return (
                 <div className="items-list div" key={i}>
                   <h3>{item.title}</h3>
-                  <p>Description: {item.description}</p>
-                  <p>Created: {item.Created}</p>
+                  <h6>Description</h6>
+                  <p>{item.description}</p>
+                  <h6>Created: </h6>
+                  <p>{item.Created.date}</p>
+                  
                 </div>
               );
             })}
