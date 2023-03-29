@@ -43,7 +43,7 @@ const Reuse = () => {
                   <h3>{item.title}</h3>
                   <h6>Description</h6>
                   <p>{item.description}</p>
-                  <h6>Created: </h6>
+                  <h6>Uploaded: </h6>
                   <p>{moment(item.Created).calendar()}</p>
                   
                 </div>
