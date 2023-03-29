@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import axios from 'axios';
+import axios from "axios";
 const url = "http://127.0.0.1:8000/api/blog";
 
 const BlogForm = () => {
@@ -21,21 +21,6 @@ const BlogForm = () => {
   const [conTitle, setConTitle] = useState("");
   const [intro, setIntro] = useState("");
 
-  const Blog = {
-    title: title,
-    firstName: firstName,
-    lastName: lastName,
-    affiliation: affiliation,
-    email: email,
-    role: role,
-    otherRole: otherRole,
-    contribution: contribution,
-    otherContribution: otherContribution,
-    conTitle: conTitle,
-    intro: intro,
-    status: 'Pending'
-  }
-
   const handleSubmit = async (event) => {
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
@@ -45,10 +30,26 @@ const BlogForm = () => {
 
     setValidated(true);
 
+    const Blog = {
+      title: title,
+      firstName: firstName,
+      lastName: lastName,
+      affiliation: affiliation,
+      email: email,
+      role: role,
+      otherRole: otherRole,
+      contribution: contribution,
+      otherContribution: otherContribution,
+      conTitle: conTitle,
+      intro: intro,
+      status: "Pending",
+    };
+
     try {
-      const resp = await axios.post(url, Blog)
+      const resp = await axios.post(url, Blog);
+      console.log(resp.data);
     } catch (error) {
-      console.log(error.response)
+      console.log(error.response);
     }
   };
 
@@ -118,9 +119,9 @@ const BlogForm = () => {
               value={email}
               onChange={(event) => setEmail(event.target.value)}
             />
-              <Form.Control.Feedback type='invalid'>
-                Please provide a valid email
-              </Form.Control.Feedback>
+            <Form.Control.Feedback type="invalid">
+              Please provide a valid email
+            </Form.Control.Feedback>
           </Form.Group>
         </Row>
 
