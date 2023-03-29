@@ -31,5 +31,4 @@ urlpatterns = [
     path('blog', TemplateView.as_view(template_name='index.html')),
     path('form', TemplateView.as_view(template_name='index.html')),
     path('Guidelines', TemplateView.as_view(template_name='index.html')),
-
 ]   
