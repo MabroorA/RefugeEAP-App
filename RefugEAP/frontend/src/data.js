@@ -54,11 +54,6 @@ export const MenuItems = [
     id: 4,
   },
   {
-    title: "Submit a blog",
-    url: "/form",
-    id: 5,
-  },
-  {
     title: "RefugEAP",
     url: "/refugeap",
     id: 6,
@@ -69,14 +64,14 @@ export const MenuItems = [
     id: 7,
   },
   {
-    title: "Contact Us",
-    url: "/contactus",
-    id: 8,
-  },
-  {
     title: "Guidelines",
     url: "/Guidelines",
     id: 9,
+  },
+  {
+    title: "Contact Us",
+    url: "/contactus",
+    id: 8,
   },
 ];
 

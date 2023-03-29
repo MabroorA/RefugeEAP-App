@@ -18,7 +18,6 @@ const BlogForm = () => {
   const [otherContribution, setOtherContribution] = useState("");
   const [conTitle, setConTitle] = useState("");
   const [intro, setIntro] = useState("");
-  const [file, setFile] = useState("");
 
   const handleSubmit = (event) => {
     const form = event.currentTarget;
@@ -179,7 +178,7 @@ const BlogForm = () => {
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="Intro blurb">
-          <Form.Label>Introductory blurb</Form.Label>
+          <Form.Label>Content</Form.Label>
           <Form.Control
             as="textarea"
             type="text"
@@ -188,16 +187,6 @@ const BlogForm = () => {
             name="intro"
             value={intro}
             onChange={(event) => setIntro(event.target.value)}
-          />
-        </Form.Group>
-
-        <Form.Group controlId="formFile" className="mb-3">
-          <Form.Label>Default file input example</Form.Label>
-          <Form.Control
-            type="file"
-            name="file"
-            value={file}
-            onChange={(event) => setFile(event.target.value)}
           />
         </Form.Group>
 
