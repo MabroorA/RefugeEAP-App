@@ -1,4 +1,4 @@
-import { Scrollbars } from "react-custom-scrollbars";
+// import { Scrollbars } from "react-custom-scrollbars";
 import React, { useState, useEffect } from "react";
 import Calendar from "react-calendar";
 // import Calendar2 from "./Calendar";
@@ -53,9 +53,9 @@ useEffect(() => {
           {/* <Calendar2/> */}
         </div>
         <div className="event-events">
-          <Scrollbars className="event-scroll">
+          {/* <Scrollbars className="event-scroll"> */}
             <EventList props={data}/>
-          </Scrollbars>
+          {/* </Scrollbars> */}
         </div>
       </div>
     </section>
