@@ -7,9 +7,9 @@ function List({props}) {
             <div style={{ fontWeight:"bolder", fontSize:"2rem"}}v>{title}</div>
             <div style={{ display: "flex"}}>
             <div>
-                <img src={pic} alt={pic}></img>
+                <img src={pic} alt={pic} width="200" height="140"></img>
             </div>
-                <div>
+                <div style={{ paddingLeft:"8%"}}>
                     <div 
                     style={{ color:"black", 
                     padding: "2%", 
