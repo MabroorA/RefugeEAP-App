@@ -1,0 +1,96 @@
+.keyInfo{
+    margin:auto;
+    padding: 3%;
+    padding-top: 10%;
+    width: 80%;
+    font-size: medium;
+    font-weight: 600;
+    overflow: hidden;
+    background-image: url(cssAssets/rainbowBackground.jpg);
+    color:white;
+}
+.title{
+    float:left;
+    font-size: xx-large;
+    margin-top: 1%;
+    margin-left:20%;
+}
+.desc{
+    float:left;
+    width:49%;
+    margin-left:10%;
+    
+}
+
+.program{
+    margin: auto;
+    text-align: center;
+    padding: 3%;
+    width: 40%;
+}
+
+.programInfoTitle{
+    padding: 2%;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.RefugEAP-Timeline{
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    width:80%;
+    padding:2%;
+    margin-left: 15%;
+    transition: linear;
+
+}
+
+.BalEAP-Timeline{
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    width:80%;
+    padding:2%;
+    margin-left: 5%;
+    transition: linear;
+}
+
+.currentEvents{
+    text-align: center;
+    padding: 3%;
+}
+
+.navBar{
+    display: inline;
+    width: 10%;
+}
+
+.logo{
+    text-align: center;
+    scale: 50%;
+}
+
+.currentEvents{
+    font-weight: 600;
+}
+
+.EnglishProvTitle{
+    width:auto;
+    margin-left: auto;
+    padding: 2%;
+    font-weight: 600;
+    font-size: x-large;
+    text-align: center;
+}
+
+.englishPage{
+    text-decoration: none;
+}
+
+.EnglishProInfo{
+    text-align: center;
+    font-weight: 400;
+}
+
+ 

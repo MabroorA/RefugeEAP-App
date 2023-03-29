@@ -1,0 +1,51 @@
+.items {
+width: 50%;
+}
+
+.items-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.items-count {
+font-size: 1.2rem;
+}
+
+.items-list {
+margin-top: 1rem;
+}
+
+.items-list div {
+margin-bottom: 1rem;
+}
+
+.items-list h3 {
+cursor: pointer;
+text-decoration: underline;
+}
+
+.items-list h3:hover {
+color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

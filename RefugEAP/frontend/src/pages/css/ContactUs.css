@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.App {
+  text-align: center;
+  padding: 30px;
+}
+
+.header {
+  color: rgb(0, 0, 0);
+  background-color: hsl(30, 100%, 0%);
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+
+.top-half {
+  height: 20vh; /* set the height to half of the viewport height */
+  background-color: hsl(224, 55%, 28%);
+  margin-bottom: 30px;
+}
+
+ 
+.contact-image {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.App img {
+  width: 100%;
+  height: auto;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ff6b6b;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-link:hover {
+  background-color: #ff5252;
+}
+
+.second-image {
+  width: auto;
+  height: auto;
+  max-width: 1000px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
