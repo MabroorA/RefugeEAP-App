@@ -11,10 +11,10 @@ const Reuse = () => {
   }, []);
 
   let getitems = async () => {
-    let response = await fetch("http://127.0.0.1:8000/api/reuseBank");
+    let response = await fetch("http://127.0.0.1:8000/api/donations");
     let formattedResponse = await response.json();
     console.log("DATA:", formattedResponse.data);
-    setitems(formattedResponse.data);
+    setitems(formattedResponse);
   };
 
   const reuseHero = {

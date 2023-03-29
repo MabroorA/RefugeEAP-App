@@ -22,7 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/blog', include('blog.urls')),
     path('api/', include('pages.urls')),
-    path('api/reuseBank', include('reuseBank.urls')),
+    path('api/', include('reuseBank.urls')),
     # path('about/', TemplateView.as_view(template_name='index.html')),
     # path('refugeap/', TemplateView.as_view(template_name='index.html')),
     # path('Reuse/', TemplateView.as_view(template_name='index.html')),
