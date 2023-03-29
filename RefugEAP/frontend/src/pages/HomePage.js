@@ -5,12 +5,10 @@ import EventCalendar from "../components/EventCalendar";
 import Hero from "../components/Hero";
 import { hero } from "../homeData";
 import refugeap from "../images/RefugEAP.jpg";
-<<<<<<< Updated upstream
 import { homePageList } from "../homeData";
 import List from '../components/List';
-=======
 import stock_refugee_image_5 from "../images/stock_refugee_image_5.png";
->>>>>>> Stashed changes
+
 
 
 function HomePage() {
