@@ -1,19 +1,8 @@
 # RefugEAP Network
 
-### Packages to install
+## Packages to install
 ```
-$ npm install (Just pass in npm install and it installs all packages you don't have)
-$ npm install date-fns --save
-$ npm i axios
-$ npm i react-toastify   
-$ npm i normalize.css
-$ npm i styled-components
-$ npm i validator
-$ npm i react-icons
-$ npm i react-router-dom
-$ npm install react-bootstrap bootstrap 
-$ npm i react-custom-scrollbars
-$ npm install react-calendar
+$ npm install
 $ pip install djangorestframework
 $ pip install django-extensions
 $ pip install django-cors-headers
@@ -27,4 +16,27 @@ $ pip install django-cors-headers
 (RefugEAP) $ python manage.py runserver
 ```
 > You need to re-do these steps if you have made new changes
+
+## Project Structure
+
+
+### node_modules
+
+```
+It stores all the npm packages there
+```
+
+### RefugEAP
+
+```
+Main part of our project
+
+- Blog (Django Blog app) - urls and models related to blog page
+- config (Django Main app) - all requests are first gone through here
+- frontend (React app) - all the frontend is done here
+- pages (Django Pages app) - urls and model related to event
+- reuseBank (Django Reusebank app) - urls and model related to reusebank
+```
+
+
 
