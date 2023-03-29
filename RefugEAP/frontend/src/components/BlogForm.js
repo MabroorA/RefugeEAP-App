@@ -3,6 +3,8 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import axios from 'axios';
+const url = "http://127.0.0.1:8000/api/blog";
 
 const BlogForm = () => {
   const [validated, setValidated] = useState(false);
@@ -19,7 +21,22 @@ const BlogForm = () => {
   const [conTitle, setConTitle] = useState("");
   const [intro, setIntro] = useState("");
 
-  const handleSubmit = (event) => {
+  const Blog = {
+    title: title,
+    firstName: firstName,
+    lastName: lastName,
+    affiliation: affiliation,
+    email: email,
+    role: role,
+    otherRole: otherRole,
+    contribution: contribution,
+    otherContribution: otherContribution,
+    conTitle: conTitle,
+    intro: intro,
+    status: 'Pending'
+  }
+
+  const handleSubmit = async (event) => {
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();
@@ -27,6 +44,12 @@ const BlogForm = () => {
     }
 
     setValidated(true);
+
+    try {
+      const resp = await axios.post(url, Blog)
+    } catch (error) {
+      console.log(error.response)
+    }
   };
 
   return (
