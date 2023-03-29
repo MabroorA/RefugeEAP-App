@@ -1,3 +1,7 @@
+import img1 from './images/about.jpg';
+import img2 from "./images/about2.jpg";
+import img3 from "./images/about3.jpg";
+
 export const hero = {
   title: "RefugEAP",
   subtitle:
@@ -10,19 +14,19 @@ export const hero = {
 export const homePageList = [
   {
     title: "RefugEAP resources",
-    pic: "pic.resource",
+    pic: img3,
     desc: "RefugEAP is a free online pre-university academic English skills programme for refugee-background students across the UK.",
     link: ".\refugeap"
   },
   {
     title: "Blog",
-    pic: "pic.png",
+    pic: img2,
     desc: "Search through the various blogs created by the RefugEAP.",
     link: ".\Blog"
   },
   {
     title: "ReUse Bank",
-    pic: './ReUse',
+    pic: img1,
     desc: "View our ReUse page",
     link: ".\Reuse"
   },
