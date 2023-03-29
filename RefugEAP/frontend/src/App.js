@@ -18,7 +18,7 @@ import Dashboard from "./pages/dashboard/Dashboard";
 import AllBlogs from "./pages/dashboard/AllBlogs";
 import BaseLayout from "./pages/dashboard/BaseLayout";
 import AddBlog from "./pages/dashboard/AddBlog";
-import Login from "./pages/dashboard/Login";
+import Login from "./pages/Login";
 
 function App() {
   return (

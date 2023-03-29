@@ -62,6 +62,15 @@
   justify-content: center;
 }
 
+.hero-photo {
+  width: 20rem;
+  height: 20rem;
+}
+
+.about-hero .hero-photo {
+  width: 30rem;
+}
+
 @media screen and (min-width: 800px) {
   .hero-center {
     flex-direction: row;

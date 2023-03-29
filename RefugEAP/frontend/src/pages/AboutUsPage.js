@@ -2,6 +2,7 @@ import React from "react";
 import "./css/AboutUsPage.css";
 import Hero from "../components/Hero";
 import Slider from "../components/Slider";
+import face from "../images/face.png"
 
 const AboutUs = () => {
   return (
@@ -14,7 +15,7 @@ const AboutUs = () => {
           url: "#paragraph",
           style: 'about-hero'
         }}
-        img=""
+        img={face}
       />
       <Slider/>
       <div className="section">

@@ -2,7 +2,10 @@
 
 ### Packages to install
 ```
+$ npm install (Just pass in npm install and it installs all packages you don't have)
 $ npm install date-fns --save
+$ npm i axios
+$ npm i react-toastify   
 $ npm i normalize.css
 $ npm i styled-components
 $ npm i validator

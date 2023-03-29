@@ -7,7 +7,4 @@ from .views import ReactBlogView;
 
 urlpatterns = [
     path('', views.ReactBlogView, name='ReactBlogView'),
-    # path('admin/', admin.site.urls),
-    # path('', views.blog, name='blog'),
-    # path('post/<slug>/', post, name = 'post')
 ]
