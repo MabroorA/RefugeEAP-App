@@ -1,5 +1,4 @@
 import React from 'react'
-import moduleName from '../components'
 
 const Reusecont = ({ item }) => {
   return (
