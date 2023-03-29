@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./Reuse.css";
 import Hero from "../components/Hero";
 import moment from "moment";
+import axios from 'axios'
+
+const url = "http://127.0.0.1:8000/api/donations";
 
 const Reuse = () => {
   let [items, setitems] = useState([]);
@@ -31,7 +34,6 @@ const Reuse = () => {
       <Hero props={reuseHero} img=""/>
       <div className="space">
       </div>
-      <div className="container"></div>
       <div className="container">
         <div className="items ">
           <div className="items-header">

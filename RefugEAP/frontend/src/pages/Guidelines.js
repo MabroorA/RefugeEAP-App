@@ -12,7 +12,7 @@ const Guidelines = () => {
         props={{
           title: "Guidelines",
           subtitle: "",
-          btn: "Please read below to see our comprehensive and detailed company guidelines",
+          btn: "Read below to see our comprehensive and detailed company guidelines",
           url: "#paragraph",
           style: 'Guidelines-hero'
         }}
