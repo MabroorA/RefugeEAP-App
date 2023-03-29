@@ -29,6 +29,9 @@ const Reuse = () => {
   return (
     <>
       <Hero props={reuseHero} img=""/>
+      <div className="space">
+      </div>
+      <div className="container"></div>
       <div className="container">
         <div className="items ">
           <div className="items-header">
