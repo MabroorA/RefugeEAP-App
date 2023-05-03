@@ -3,7 +3,8 @@
 .contact-hero,
 .reuse-hero,
 .Guidelines-hero,
-.blog-hero {
+.blog-hero,
+.eap-hero {
   padding: 5rem 0;
   scroll-margin-top: 4rem;
   background: var(--clr-umber--9);
@@ -29,6 +30,10 @@
 
 .reuse-hero {
   background: var(--clr-taupe--3);
+}
+
+.eap-hero {
+  background: var(--clr-blue--3);
 }
 
 .hero h1,

@@ -5,14 +5,12 @@ import "./EAPPage.css";
 
 const About = () => {
   return (
-    <section class="section" id="about">
+    <section className="section" id="about">
       <Title title="about the " subtitle="programme" />
 
-      <div class="section-center about-center">
-        <div class="about-img">
-          <img src={about3} className="about-photo" alt="people talking" />
-        </div>
-        <article class="about-info">
+      <div className="section-center about-center">
+        <div className="about-img"></div>
+        <article className="about-info">
           <h3>the RefugEAP Programme</h3>
           <p>
             The RefugEAP Programme is a free online pre-university academic
@@ -30,8 +28,8 @@ const About = () => {
             The RefugEAP Programme has been developed by Deirdre McKenna at{" "}
             <a href="https://le.ac.uk/cite/sanctuary-seekers-unit">
               the University of Leeds’ Language Centre
-            </a>
-            {" "}and Aleks Palanac at{" "}
+            </a>{" "}
+            and Aleks Palanac at{" "}
             <a href="https://le.ac.uk/cite/sanctuary-seekers-unit">
               the University of Leicester’s Sanctuary Seekers’ Unit
             </a>
@@ -45,7 +43,7 @@ const About = () => {
 
           <a
             href="https://le.ac.uk/cite/sanctuary-seekers-unit/initiatives/refugeap"
-            class="btn-eap"
+            className="btn-eap"
             rel="noreferrer"
           >
             learn more
